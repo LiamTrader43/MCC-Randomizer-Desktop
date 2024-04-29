@@ -1,0 +1,16 @@
+C:\coding\HaloRuns\bin\Debug\net8.0-windows\HaloRuns.exe
+C:\coding\HaloRuns\bin\Debug\net8.0-windows\HaloRuns.deps.json
+C:\coding\HaloRuns\bin\Debug\net8.0-windows\HaloRuns.runtimeconfig.json
+C:\coding\HaloRuns\bin\Debug\net8.0-windows\HaloRuns.dll
+C:\coding\HaloRuns\bin\Debug\net8.0-windows\HaloRuns.pdb
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\HaloRuns.Form1.resources
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\HaloRuns.csproj.GenerateResource.cache
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\HaloRuns.GeneratedMSBuildEditorConfig.editorconfig
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\HaloRuns.AssemblyInfoInputs.cache
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\HaloRuns.AssemblyInfo.cs
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\HaloRuns.csproj.CoreCompileInputs.cache
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\HaloRuns.dll
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\refint\HaloRuns.dll
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\HaloRuns.pdb
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\HaloRuns.genruntimeconfig.cache
+C:\coding\HaloRuns\obj\Debug\net8.0-windows\ref\HaloRuns.dll

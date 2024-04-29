@@ -1,0 +1,3173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Please increment version number inside the MissionPlaylists tag if the list is updated.  The game uses version number to ensure coop players have same data and also save games will be based on this (The version inside XML tag is not used.)-->
+<MissionPlaylists version="4">
+	<Halo1>
+		<Playlist id="MR1_P1" name="$H1_Playlist_1_Title" desc="$H1_Playlist_1_Desc" image="H1_Setlist_Preview_01" highestDiffID="_campaign_difficulty_level_impossible" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_pillar_of_autumn" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_halo" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_truth_and_reconciliation" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_343_guilty_spark" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_the_library" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_two_betrayals" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_keyes" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_the_maw" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+			</MapList>
+			<MasterSkullList>
+				<Skull id="_skull_black_eye" />
+				<Skull id="_skull_boom"/>
+				<Skull id="_skull_fog" />
+				<Skull id="_skull_eye_patch" />
+				<Skull id="_skull_foreign" />
+				<Skull id="_skull_famine" />
+				<Skull id="_skull_grunt_birthday_party" />
+				<Skull id="_skull_grunt_funeral" />
+				<Skull id="_skull_iron"/>
+				<Skull id="_skull_malfunction" />
+				<Skull id="_skull_mythic" />
+				<Skull id="_skull_recession" />
+			</MasterSkullList>
+		</Playlist>
+		<Playlist id="MR1_P2" name="$H1_Playlist_2_Title" desc="$H1_Playlist_2_Desc" image="H1_Setlist_Preview_02" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR1_P3" name="$H1_Playlist_3_Title" desc="$H1_Playlist_3_Desc" image="H1_Setlist_Preview_03" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_pillar_of_autumn" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_truth_and_reconciliation" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_the_maw" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR1_P4" name="$H1_Playlist_4_Title" desc="$H1_Playlist_4_Desc" image="H1_Setlist_Preview_04" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_343_guilty_spark" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_the_library" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_two_betrayals" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_keyes" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR1_P5" name="$H1_Playlist_5_Title" desc="$H1_Playlist_5_Desc" image="H1_Setlist_Preview_05" highestDiffID="_campaign_difficulty_level_easy" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_pillar_of_autumn" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo1_halo" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo1_truth_and_reconciliation" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo1_343_guilty_spark" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo1_the_library" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo1_two_betrayals" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo1_keyes" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo1_the_maw" diffID="_campaign_difficulty_level_easy" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR1_P6" name="$H1_Playlist_6_Title" desc="$H1_Playlist_6_Desc" image="H1_Setlist_Preview_06" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_pillar_of_autumn" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_truth_and_reconciliation" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_343_guilty_spark" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_the_library" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_two_betrayals" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_keyes" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_the_maw" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR1_P7" name="$H1_Playlist_7_Title" desc="$H1_Playlist_7_Desc" image="H1_Setlist_Preview_07" highestDiffID="_campaign_difficulty_level_hard" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_pillar_of_autumn" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo1_halo" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo1_truth_and_reconciliation" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo1_343_guilty_spark" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo1_the_library" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo1_two_betrayals" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo1_keyes" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo1_the_maw" diffID="_campaign_difficulty_level_hard" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR1_P8" name="$H1_Playlist_8_Title" desc="$H1_Playlist_8_Desc" image="H1_Setlist_Preview_08" highestDiffID="_campaign_difficulty_level_impossible" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_pillar_of_autumn" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo1_halo" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo1_truth_and_reconciliation" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo1_343_guilty_spark" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo1_the_library" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo1_two_betrayals" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo1_keyes" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo1_the_maw" diffID="_campaign_difficulty_level_impossible" />
+			</MapList>
+		</Playlist>
+	</Halo1>
+	<Halo2>
+		<Playlist id="MR2_P1" name="$H2_Playlist_1_Title" desc="$H2_Playlist_1_Desc" image="H2_Setlist_Preview_01" highestDiffID="_campaign_difficulty_level_impossible" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo2_the_heretic" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_the_armory" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_cairo_station" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_the_arbiter" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_the_oracle" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_regret" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_sacred_icon" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_quarantine_zone" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_high_charity" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+			</MapList>
+			<MasterSkullList>
+				<Skull id="_skull_anger" />
+				<Skull id="_skull_assassins" />
+				<Skull id="_skull_black_eye" />
+				<Skull id="_skull_blind" />
+				<Skull id="_skull_catch" />
+				<Skull id="_skull_famine" />
+				<Skull id="_skull_ghost" />
+				<Skull id="_skull_grunt_birthday_party" />
+				<Skull id="_skull_iron"/>
+				<Skull id="_skull_iwhbyd" />
+				<Skull id="_skull_mythic" />
+				<Skull id="_skull_sputnik" />
+				<Skull id="_skull_thats_just_wrong" />
+				<Skull id="_skull_thunderstorm" />
+			</MasterSkullList>
+		</Playlist>
+		<Playlist id="MR2_P2" name="$H2_Playlist_2_Title" desc="$H2_Playlist_2_Desc" image="H2_Setlist_Preview_02" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo2_the_heretic" diffID="_campaign_difficulty_level_normal"/>
+				<Map id="_map_id_halo2_the_arbiter" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_oracle" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_sacred_icon" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_quarantine_zone" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR2_P3" name="$H2_Playlist_3_Title" desc="$H2_Playlist_3_Desc" image="H2_Setlist_Preview_03" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo2_the_heretic" diffID="_campaign_difficulty_level_normal"/>
+				<Map id="_map_id_halo2_the_armory" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_cairo_station" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_regret" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_high_charity" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR2_P4" name="$H2_Playlist_4_Title" desc="$H2_Playlist_4_Desc" image="H2_Setlist_Preview_04" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR2_P5" name="$H2_Playlist_5_Title" desc="$H2_Playlist_5_Desc" image="H2_Setlist_Preview_05" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo2_the_oracle" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_regret" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR2_P6" name="$H2_Playlist_6_Title" desc="$H2_Playlist_6_Desc" image="H2_Setlist_Preview_06" highestDiffID="_campaign_difficulty_level_easy" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo2_the_heretic" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_the_armory" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_cairo_station" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_the_arbiter" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_the_oracle" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_regret" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_sacred_icon" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_quarantine_zone" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_high_charity" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_easy" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR2_P7" name="$H2_Playlist_7_Title" desc="$H2_Playlist_7_Desc" image="H2_Setlist_Preview_07" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo2_the_heretic" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_armory" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_cairo_station" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_arbiter" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_oracle" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_regret" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_sacred_icon" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_quarantine_zone" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_high_charity" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR2_P8" name="$H2_Playlist_8_Title" desc="$H2_Playlist_8_Desc" image="H2_Setlist_Preview_08" highestDiffID="_campaign_difficulty_level_hard" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo2_the_heretic" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_the_armory" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_cairo_station" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_the_arbiter" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_the_oracle" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_regret" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_sacred_icon" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_quarantine_zone" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_high_charity" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_hard" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR2_P9" name="$H2_Playlist_9_Title" desc="$H2_Playlist_9_Desc" image="H2_Setlist_Preview_09" highestDiffID="_campaign_difficulty_level_impossible" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo2_the_heretic" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_the_armory" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_cairo_station" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_the_arbiter" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_the_oracle" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_regret" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_sacred_icon" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_quarantine_zone" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_high_charity" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_impossible" />
+			</MapList>
+		</Playlist>
+	</Halo2>
+	<Halo3>
+		<Playlist id="MR3_P1" name="$H3_Playlist_1_Title" desc="$H3_Playlist_1_Desc" image="H3_Setlist_Preview_01" highestDiffID="_campaign_difficulty_level_impossible" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3_arrival" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_sierra_117" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_tsavo_highway" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_cortana" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_halo" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_epilogue" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+			</MapList>
+			<MasterSkullList>
+				<Skull id="_skull_black_eye" />
+				<Skull id="_skull_blind" />
+				<Skull id="_skull_catch" />
+				<Skull id="_skull_cowbell" />
+				<Skull id="_skull_famine" />
+				<Skull id="_skull_fog" />
+				<Skull id="_skull_grunt_birthday_party" />
+				<Skull id="_skull_iron" />
+				<Skull id="_skull_iwhbyd" />
+				<Skull id="_skull_mythic" />
+				<Skull id="_skull_thunderstorm" />
+				<Skull id="_skull_tilt" />
+				<Skull id="_skull_tough_luck" />
+			</MasterSkullList>
+		</Playlist>
+		<Playlist id="MR3_P2" name="$H3_Playlist_2_Title" desc="$H3_Playlist_2_Desc" image="H3_Setlist_Preview_02" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo3_tsavo_highway" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_halo" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3_P3" name="$H3_Playlist_3_Title" desc="$H3_Playlist_3_Desc" image="H3_Setlist_Preview_03" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3_sierra_117" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_cortana" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3_P4" name="$H3_Playlist_4_Title" desc="$H3_Playlist_4_Desc" highestDiffID="_campaign_difficulty_level_normal" image="H3_Setlist_Preview_04" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_impossible"  />
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_impossible" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3_P5" name="$H3_Playlist_5_Title" desc="$H3_Playlist_5_Desc" highestDiffID="_campaign_difficulty_level_easy" image="H3_Setlist_Preview_05" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3_arrival" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3_sierra_117" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3_tsavo_highway" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3_cortana" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3_halo" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3_epilogue" diffID="_campaign_difficulty_level_easy" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3_P6" name="$H3_Playlist_6_Title" desc="$H3_Playlist_6_Desc" highestDiffID="_campaign_difficulty_level_normal" image="H3_Setlist_Preview_06" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3_arrival" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_sierra_117" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_tsavo_highway" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_cortana" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_epilogue" diffID="_campaign_difficulty_level_normal" />
+
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3_P7" name="$H3_Playlist_7_Title" desc="$H3_Playlist_7_Desc" highestDiffID="_campaign_difficulty_level_hard" image="H3_Setlist_Preview_07" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3_arrival" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_sierra_117" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_tsavo_highway" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_cortana" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_halo" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_epilogue" diffID="_campaign_difficulty_level_hard" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3_P8" name="$H3_Playlist_8_Title" desc="$H3_Playlist_8_Desc" highestDiffID="_campaign_difficulty_level_impossible" image="H3_Setlist_Preview_08" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3_arrival" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_sierra_117" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_tsavo_highway" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_cortana" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_halo" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_epilogue" diffID="_campaign_difficulty_level_impossible" />
+			</MapList>
+		</Playlist>
+	</Halo3>
+	<Halo3ODST>
+		<Playlist id="MR3ODST_P1" name="$H3ODST_Playlist_1_Title" desc="$H3ODST_Playlist_1_Desc" highestDiffID="_campaign_difficulty_level_impossible" image="H3ODST_Setlist_Preview_01" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3odst_prepare_to_drop" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_tayari_plaza" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_uplift_reserve" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_kizingo_boulevard" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_oni_alpha_site" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_nmpd_hq" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_kikowani_station" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_data_hive" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_coastal_highway" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_epilogue" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+			</MapList>
+			<MasterSkullList>
+				<Skull id="_skull_black_eye" />
+				<Skull id="_skull_blind" />
+				<Skull id="_skull_catch" />
+				<Skull id="_skull_cowbell" />
+				<Skull id="_skull_famine" />
+				<Skull id="_skull_grunt_birthday_party" />
+				<Skull id="_skull_iron" />
+				<Skull id="_skull_iwhbyd" />
+				<Skull id="_skull_mythic" />
+				<Skull id="_skull_thunderstorm" />
+				<Skull id="_skull_tilt" />
+				<Skull id="_skull_tough_luck" />
+			</MasterSkullList>
+		</Playlist>
+		<Playlist id="MR3ODST_P2" name="$H3ODST_Playlist_2_Title" desc="$H3ODST_Playlist_2_Desc" highestDiffID="_campaign_difficulty_level_impossible" image="H3ODST_Setlist_Preview_01" hasRallyPoints="true" singlePlayer="true">
+			<MapList>
+				<Map id="_map_id_halo3odst_prepare_to_drop" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_tayari_plaza" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="1">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_uplift_reserve" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="2">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_kizingo_boulevard" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="3">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_oni_alpha_site" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="4">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_nmpd_hq" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="5">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_kikowani_station" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="6">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_data_hive" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_coastal_highway" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3odst_epilogue" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+			</MapList>
+			<MasterSkullList>
+				<Skull id="_skull_black_eye" />
+				<Skull id="_skull_blind" />
+				<Skull id="_skull_catch" />
+				<Skull id="_skull_cowbell" />
+				<Skull id="_skull_famine" />
+				<Skull id="_skull_grunt_birthday_party" />
+				<Skull id="_skull_iron" />
+				<Skull id="_skull_iwhbyd" />
+				<Skull id="_skull_mythic" />
+				<Skull id="_skull_thunderstorm" />
+				<Skull id="_skull_tilt" />
+				<Skull id="_skull_tough_luck" />
+			</MasterSkullList>
+		</Playlist>
+		<Playlist id="MR3ODST_P3" name="$H3ODST_Playlist_3_Title" desc="$H3ODST_Playlist_3_Desc" highestDiffID="_campaign_difficulty_level_normal"     image="H3ODST_Setlist_Preview_02" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3odst_uplift_reserve" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_kizingo_boulevard" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_kikowani_station" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3ODST_P4" name="$H3ODST_Playlist_4_Title" desc="$H3ODST_Playlist_4_Desc" highestDiffID="_campaign_difficulty_level_normal"     image="H3ODST_Setlist_Preview_03" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3odst_oni_alpha_site" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_coastal_highway" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3ODST_P5" name="$H3ODST_Playlist_5_Title" desc="$H3ODST_Playlist_5_Desc" highestDiffID="_campaign_difficulty_level_impossible"     image="H3ODST_Setlist_Preview_04" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3odst_tayari_plaza" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_nmpd_hq" diffID="_campaign_difficulty_level_impossible"  />
+				<Map id="_map_id_halo3odst_data_hive" diffID="_campaign_difficulty_level_impossible" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3ODST_P6" name="$H3ODST_Playlist_6_Title" desc="$H3ODST_Playlist_6_Desc" highestDiffID="_campaign_difficulty_level_impossible"       image="H3ODST_Setlist_Preview_05" hasRallyPoints="true" singlePlayer="true">
+			<MapList>
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="1" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="2" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="3" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="4" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="5" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="6" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3ODST_P7" name="$H3ODST_Playlist_7_Title" desc="$H3ODST_Playlist_7_Desc" highestDiffID="_campaign_difficulty_level_easy"       image="H3ODST_Setlist_Preview_05" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3odst_prepare_to_drop" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_tayari_plaza" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_uplift_reserve" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_kizingo_boulevard" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_oni_alpha_site" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_nmpd_hq" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_kikowani_station" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_data_hive" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_coastal_highway" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_epilogue" diffID="_campaign_difficulty_level_easy" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3ODST_P8" name="$H3ODST_Playlist_8_Title" desc="$H3ODST_Playlist_8_Desc" highestDiffID="_campaign_difficulty_level_easy"       image="H3ODST_Setlist_Preview_05" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo3odst_prepare_to_drop" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_tayari_plaza" 	diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_easy" insertionpoint="1" />
+				<Map id="_map_id_halo3odst_uplift_reserve" 	diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_easy" insertionpoint="2" />
+				<Map id="_map_id_halo3odst_kizingo_boulevard" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_easy" insertionpoint="3" />
+				<Map id="_map_id_halo3odst_oni_alpha_site" 	diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_easy" insertionpoint="4" />
+				<Map id="_map_id_halo3odst_nmpd_hq" 		diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_easy" insertionpoint="5" />
+				<Map id="_map_id_halo3odst_kikowani_station" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_easy" insertionpoint="6" />
+				<Map id="_map_id_halo3odst_data_hive" 		diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_coastal_highway" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo3odst_epilogue" 		diffID="_campaign_difficulty_level_easy" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3ODST_P9" name="$H3ODST_Playlist_9_Title" desc="$H3ODST_Playlist_9_Desc" highestDiffID="_campaign_difficulty_level_normal"     image="H3ODST_Setlist_Preview_06" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo3odst_prepare_to_drop" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_tayari_plaza" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_normal" insertionpoint="1" />
+				<Map id="_map_id_halo3odst_uplift_reserve" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_normal" insertionpoint="2" />
+				<Map id="_map_id_halo3odst_kizingo_boulevard" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_normal" insertionpoint="3" />
+				<Map id="_map_id_halo3odst_oni_alpha_site" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_normal" insertionpoint="4" />
+				<Map id="_map_id_halo3odst_nmpd_hq" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_normal" insertionpoint="5" />
+				<Map id="_map_id_halo3odst_kikowani_station" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_normal" insertionpoint="6" />
+				<Map id="_map_id_halo3odst_data_hive" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_coastal_highway" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3odst_epilogue" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3ODST_P10" name="$H3ODST_Playlist_10_Title" desc="$H3ODST_Playlist_10_Desc" highestDiffID="_campaign_difficulty_level_hard"       image="H3ODST_Setlist_Preview_07" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo3odst_prepare_to_drop" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3odst_tayari_plaza" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_hard" insertionpoint="1" />
+				<Map id="_map_id_halo3odst_uplift_reserve" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_hard" insertionpoint="2" />
+				<Map id="_map_id_halo3odst_kizingo_boulevard" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_hard" insertionpoint="3" />
+				<Map id="_map_id_halo3odst_oni_alpha_site" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_hard" insertionpoint="4" />
+				<Map id="_map_id_halo3odst_nmpd_hq" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_hard" insertionpoint="5" />
+				<Map id="_map_id_halo3odst_kikowani_station" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_hard" insertionpoint="6" />
+				<Map id="_map_id_halo3odst_data_hive" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3odst_coastal_highway" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3odst_epilogue" diffID="_campaign_difficulty_level_hard" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR3ODST_P11" name="$H3ODST_Playlist_11_Title" desc="$H3ODST_Playlist_11_Desc" highestDiffID="_campaign_difficulty_level_impossible" image="H3ODST_Setlist_Preview_08" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo3odst_prepare_to_drop" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_tayari_plaza" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="1" />
+				<Map id="_map_id_halo3odst_uplift_reserve" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="2" />
+				<Map id="_map_id_halo3odst_kizingo_boulevard" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="3" />
+				<Map id="_map_id_halo3odst_oni_alpha_site" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="4" />
+				<Map id="_map_id_halo3odst_nmpd_hq" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="5" />
+				<Map id="_map_id_halo3odst_kikowani_station" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_mombasa_streets" diffID="_campaign_difficulty_level_impossible" insertionpoint="6" />
+				<Map id="_map_id_halo3odst_data_hive" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_coastal_highway" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3odst_epilogue" diffID="_campaign_difficulty_level_impossible" />
+			</MapList>
+		</Playlist>
+	</Halo3ODST>
+	<HaloReach>
+		<Playlist id="MRR_P1" name="$HReach_Playlist_1_Title" desc="$HReach_Playlist_1_Desc" image="HReach_Setlist_Preview_01" highestDiffID="_campaign_difficulty_level_impossible" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_haloreach_noble_actual" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_winter_contingency" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_oni_sword_base" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_nightfall" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_tip_of_the_spear" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_long_night_of_solace" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_exodus" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_new_alexandria" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_the_package" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_the_pillar_of_autumn" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_the_pillar_of_autumn_credits" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_haloreach_lone_wolf" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+			</MapList>
+			<MasterSkullList>
+				<Skull id="_skull_black_eye" />
+				<Skull id="_skull_blind" />
+				<Skull id="_skull_catch" />
+				<Skull id="_skull_cowbell" />
+				<Skull id="_skull_famine" />
+				<Skull id="_skull_fog" />
+				<Skull id="_skull_grunt_birthday_party" />
+				<Skull id="_skull_iron" />
+				<Skull id="_skull_iwhbyd" />
+				<Skull id="_skull_mythic" />
+				<Skull id="_skull_thunderstorm" />
+				<Skull id="_skull_tilt" />
+				<Skull id="_skull_tough_luck" />
+			</MasterSkullList>
+		</Playlist>
+		<Playlist id="MRR_P2" name="$HReach_Playlist_2_Title" desc="$HReach_Playlist_2_Desc" highestDiffID="_campaign_difficulty_level_normal" image="HReach_Setlist_Placeholder" hasRallyPoints="false" singlePlayer="true">
+			<MapList>
+				<Map id="_map_id_haloreach_exodus" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_new_alexandria" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_lone_wolf" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>>
+		<Playlist id="MRR_P3" name="$HReach_Playlist_3_Title" desc="$HReach_Playlist_3_Desc" highestDiffID="_campaign_difficulty_level_normal" image="HReach_Setlist_Placeholder" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_haloreach_winter_contingency" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_long_night_of_solace" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_the_package" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>>
+		<Playlist id="MRR_P4" name="$HReach_Playlist_4_Title" desc="$HReach_Playlist_4_Desc" highestDiffID="_campaign_difficulty_level_normal" image="HReach_Setlist_Placeholder" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_haloreach_nightfall" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_tip_of_the_spear" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>>
+		<Playlist id="MRR_P5" name="$HReach_Playlist_5_Title" desc="$HReach_Playlist_5_Desc" highestDiffID="_campaign_difficulty_level_normal" image="HReach_Setlist_Placeholder" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_haloreach_winter_contingency" diffID="_campaign_difficulty_level_normal" insertionpoint="3" />
+				<Map id="_map_id_haloreach_oni_sword_base" diffID="_campaign_difficulty_level_normal" insertionpoint="1" />
+				<Map id="_map_id_haloreach_tip_of_the_spear" diffID="_campaign_difficulty_level_normal" insertionpoint="0" />
+				<Map id="_map_id_haloreach_exodus" diffID="_campaign_difficulty_level_normal" insertionpoint="2" />
+				<Map id="_map_id_haloreach_the_package" diffID="_campaign_difficulty_level_normal" insertionpoint="0" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRR_P6" name="$HReach_Playlist_6_Title" desc="$HReach_Playlist_6_Desc" highestDiffID="_campaign_difficulty_level_normal" image="HReach_Setlist_Placeholder" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_haloreach_nightfall" diffID="_campaign_difficulty_level_normal" insertionpoint="0" />
+				<Map id="_map_id_haloreach_long_night_of_solace" diffID="_campaign_difficulty_level_normal" insertionpoint="2" />
+				<Map id="_map_id_haloreach_exodus" diffID="_campaign_difficulty_level_normal" insertionpoint="0" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn" diffID="_campaign_difficulty_level_normal" insertionpoint="2" />
+			</MapList>
+		</Playlist>>
+		<Playlist id="MRR_P7" name="$HReach_Playlist_7_Title" desc="$HReach_Playlist_7_Desc" highestDiffID="_campaign_difficulty_level_easy" image="HReach_Setlist_Placeholder" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_haloreach_noble_actual" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_winter_contingency" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_oni_sword_base" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_nightfall" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_tip_of_the_spear" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_long_night_of_solace" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_exodus" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_new_alexandria" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_the_package" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn_credits" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_haloreach_lone_wolf" diffID="_campaign_difficulty_level_easy" />
+			</MapList>
+		</Playlist>>
+		<Playlist id="MRR_P8" name="$HReach_Playlist_8_Title" desc="$HReach_Playlist_8_Desc" highestDiffID="_campaign_difficulty_level_normal" image="HReach_Setlist_Placeholder" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_haloreach_noble_actual" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_winter_contingency" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_oni_sword_base" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_nightfall" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_tip_of_the_spear" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_long_night_of_solace" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_exodus" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_new_alexandria" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_the_package" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn_credits" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_haloreach_lone_wolf" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>>
+		<Playlist id="MRR_P9" name="$HReach_Playlist_9_Title" desc="$HReach_Playlist_9_Desc" highestDiffID="_campaign_difficulty_level_hard" image="HReach_Setlist_Placeholder" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_haloreach_noble_actual" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_winter_contingency" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_oni_sword_base" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_nightfall" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_tip_of_the_spear" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_long_night_of_solace" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_exodus" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_new_alexandria" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_the_package" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn_credits" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_lone_wolf" diffID="_campaign_difficulty_level_hard" />
+			</MapList>
+		</Playlist>>
+		<Playlist id="MRR_P10" name="$HReach_Playlist_10_Title" desc="$HReach_Playlist_10_Desc" highestDiffID="_campaign_difficulty_level_impossible" image="HReach_Setlist_Placeholder" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_haloreach_noble_actual" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_winter_contingency" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_oni_sword_base" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_nightfall" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_tip_of_the_spear" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_long_night_of_solace" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_exodus" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_new_alexandria" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_the_package" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn_credits" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_haloreach_lone_wolf" diffID="_campaign_difficulty_level_impossible" />
+			</MapList>
+		</Playlist>>
+	</HaloReach>
+	<Halo4>
+		<Playlist id="MR4_P1" name="$H4_Playlist_1_Title" desc="$H4_Playlist_1_Desc" image="H4_Setlist_Preview_01" highestDiffID="_campaign_difficulty_level_impossible" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo4_prologue" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_dawn" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_requiem" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_forerunner" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_infinity" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_reclaimer" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_midnight" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_epilogue" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+			</MapList>
+			<MasterSkullList>
+				<Skull id="_skull_black_eye" />
+				<Skull id="_skull_blind" />
+				<Skull id="_skull_catch" />
+				<Skull id="_skull_cowbell" />
+				<Skull id="_skull_famine" />
+				<Skull id="_skull_fog" />
+				<Skull id="_skull_grunt_birthday_party" />
+				<Skull id="_skull_iron" />
+				<Skull id="_skull_iwhbyd" />
+				<Skull id="_skull_mythic" />
+				<Skull id="_skull_thunderstorm" />
+				<Skull id="_skull_tilt" />
+				<Skull id="_skull_tough_luck" />
+			</MasterSkullList>
+		</Playlist>
+		<Playlist id="MR4_P2" name="$H4_Playlist_2_Title" desc="$H4_Playlist_2_Desc" image="H4_Setlist_Preview_02" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo4_dawn" diffID="_campaign_difficulty_level_normal" insertionpoint="1" />
+				<Map id="_map_id_halo4_requiem" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_normal" insertionpoint="7" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR4_P3" name="$H4_Playlist_3_Title" desc="$H4_Playlist_3_Desc" image="H4_Setlist_Preview_03" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo4_forerunner" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_reclaimer" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_normal" insertionpoint="3" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR4_P4" name="$H4_Playlist_4_Title" desc="$H4_Playlist_4_Desc" image="H4_Setlist_Preview_04" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo4_dawn" diffID="_campaign_difficulty_level_normal" insertionpoint="1" />
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_normal" insertionpoint="3" />
+				<Map id="_map_id_halo4_midnight" diffID="_campaign_difficulty_level_normal" insertionpoint="1" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR4_P5" name="$H4_Playlist_5_Title" desc="$H4_Playlist_5_Desc" image="H4_Setlist_Preview_05" highestDiffID="_campaign_difficulty_level_easy" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo4_prologue" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo4_dawn" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo4_requiem" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo4_forerunner" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo4_infinity" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo4_reclaimer" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo4_midnight" diffID="_campaign_difficulty_level_easy" />
+				<Map id="_map_id_halo4_epilogue" diffID="_campaign_difficulty_level_easy" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR4_P6" name="$H4_Playlist_6_Title" desc="$H4_Playlist_6_Desc" image="H4_Setlist_Preview_06" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo4_prologue" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_dawn" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_requiem" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_forerunner" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_infinity" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_reclaimer" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_midnight" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_epilogue" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR4_P7" name="$H4_Playlist_7_Title" desc="$H4_Playlist_7_Desc" image="H4_Setlist_Preview_07" highestDiffID="_campaign_difficulty_level_hard" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo4_prologue" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_dawn" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_requiem" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_forerunner" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_infinity" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_reclaimer" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_midnight" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_epilogue" diffID="_campaign_difficulty_level_hard" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MR4_P8" name="$H4_Playlist_8_Title" desc="$H4_Playlist_8_Desc" image="H4_Setlist_Preview_08" highestDiffID="_campaign_difficulty_level_impossible" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo4_prologue" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo4_dawn" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo4_requiem" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo4_forerunner" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo4_infinity" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo4_reclaimer" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo4_midnight" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo4_epilogue" diffID="_campaign_difficulty_level_impossible" />
+			</MapList>
+		</Playlist>
+	</Halo4>
+	<CrossTitle>
+		<Playlist id="MRCT_P1" name="$CT_Playlist_1_Title" desc="$CT_Playlist_1_Desc" image="CT_Setlist_Preview_01" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_pillar_of_autumn" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_truth_and_reconciliation" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_343_guilty_spark" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_the_library" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_two_betrayals" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_keyes" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_the_maw" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_heretic" diffID="_campaign_difficulty_level_normal"/>
+				<Map id="_map_id_halo2_the_armory" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_cairo_station" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_arbiter" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_oracle" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_regret" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_sacred_icon" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_quarantine_zone" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_high_charity" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_arrival" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_sierra_117" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_tsavo_highway" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_cortana" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_epilogue" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_prologue" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_dawn" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_requiem" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_forerunner" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_infinity" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_reclaimer" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_midnight" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_epilogue" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P2" name="$CT_Playlist_2_Title" desc="$CT_Playlist_2_Desc" image="CT_Setlist_Preview_02" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_arbiter" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_infinity" diffID="_campaign_difficulty_level_normal" insertionpoint="6" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P3" name="$CT_Playlist_3_Title" desc="$CT_Playlist_3_Desc" image="CT_Setlist_Preview_03" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P4" name="$CT_Playlist_4_Title" desc="$CT_Playlist_4_Desc" image="CT_Setlist_Preview_04" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_343_guilty_spark" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_the_library" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_quarantine_zone" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_high_charity" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_cortana" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P5" name="$CT_Playlist_5_Title" desc="$CT_Playlist_5_Desc" image="CT_Setlist_Preview_05" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo1_two_betrayals" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_normal" insertionpoint="1" />
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P6" name="$CT_Playlist_6_Title" desc="$CT_Playlist_6_Desc" image="CT_Setlist_Preview_06" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_normal" insertionpoint="1" />
+				<Map id="_map_id_halo4_infinity" diffID="_campaign_difficulty_level_normal" insertionpoint="6" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P7" name="$CT_Playlist_7_Title" desc="$CT_Playlist_7_Desc" image="CT_Setlist_Preview_07" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_the_maw" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_midnight" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P8" name="$CT_Playlist_8_Title" desc="$CT_Playlist_8_Desc" image="CT_Setlist_Preview_08" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_tsavo_highway" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_requiem" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P9" name="$CT_Playlist_9_Title" desc="$CT_Playlist_9_Desc" image="CT_Setlist_Preview_09" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_truth_and_reconciliation" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_reclaimer" diffID="_campaign_difficulty_level_normal" insertionpoint="7" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P10" name="$CT_Playlist_10_Title" desc="$CT_Playlist_10_Desc" image="CT_Setlist_Preview_10" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_pillar_of_autumn" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_the_maw" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_cairo_station" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_dawn" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P11" name="$CT_Playlist_11_Title" desc="$CT_Playlist_11_Desc" image="CT_Setlist_Preview_11" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_343_guilty_spark" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_sierra_117" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_infinity" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P12" name="$CT_Playlist_12_Title" desc="$CT_Playlist_12_Desc" image="CT_Setlist_Preview_12" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_halo" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P13" name="$CT_Playlist_13_Title" desc="$CT_Playlist_13_Desc" image="CT_Setlist_Preview_13" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P15" name="$CT_Playlist_15_Title" desc="$CT_Playlist_15_Desc" image="CT_Setlist_Preview_13" highestDiffID="_campaign_difficulty_level_impossible" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_impossible" />
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_impossible" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P16" name="$CT_Playlist_16_Title" desc="$CT_Playlist_16_Desc" image="CT_Setlist_Preview_13" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo1_two_betrayals" diffID="_campaign_difficulty_level_normal" />
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_normal" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P14" name="$CT_Playlist_14_Title" desc="$CT_Playlist_14_Desc" image="CT_Setlist_Preview_14" highestDiffID="_campaign_difficulty_level_normal" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_halo1_pillar_of_autumn" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_halo" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_truth_and_reconciliation" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_assault_on_the_control_room" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_343_guilty_spark" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_the_library" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_two_betrayals" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_keyes" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo1_the_maw" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_boom"/>
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_eye_patch" />
+						<Skull id="_skull_foreign" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_grunt_funeral" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_malfunction" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_recession" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_the_heretic" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_the_armory" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_cairo_station" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_outskirts" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_metropolis" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_the_arbiter" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_the_oracle" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_delta_halo" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_regret" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_sacred_icon" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_quarantine_zone" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_high_charity" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_anger" />
+						<Skull id="_skull_assassins" />
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_ghost" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron"/>
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_sputnik" />
+						<Skull id="_skull_thats_just_wrong" />
+						<Skull id="_skull_thunderstorm" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_arrival" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_sierra_117" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_crows_nest" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_tsavo_highway" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_floodgate" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_cortana" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_halo" title="$H3_Chapter_3-10_Title" desc="$H3_Chapter_3-10_Desc" image="H3_C10_Halo3" gameIcon="GameSymbol_Halo3" summaryImage="H3Halo3" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo3_epilogue" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_prologue" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_dawn" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_requiem" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_forerunner" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_infinity" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_reclaimer" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_composer" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_midnight" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+				<Map id="_map_id_halo4_epilogue" diffID="_campaign_difficulty_level_impossible">
+					<SkullList>
+						<Skull id="_skull_black_eye" />
+						<Skull id="_skull_blind" />
+						<Skull id="_skull_catch" />
+						<Skull id="_skull_cowbell" />
+						<Skull id="_skull_famine" />
+						<Skull id="_skull_fog" />
+						<Skull id="_skull_grunt_birthday_party" />
+						<Skull id="_skull_iron" />
+						<Skull id="_skull_iwhbyd" />
+						<Skull id="_skull_mythic" />
+						<Skull id="_skull_thunderstorm" />
+						<Skull id="_skull_tilt" />
+						<Skull id="_skull_tough_luck" />
+					</SkullList>
+				</Map>
+			</MapList>
+			<MasterSkullList>
+				<Skull id="_skull_anger"                h1="false" h2="true"  h3="false" h4="false" />
+				<Skull id="_skull_assassins"            h1="false" h2="true"  h3="false" h4="false" />
+				<Skull id="_skull_black_eye"            h1="true"  h2="true"  h3="true"  h4="true"  />
+				<Skull id="_skull_blind"                h1="false" h2="true"  h3="true"  h4="true"  />
+				<Skull id="_skull_boom"                 h1="true"  h2="false" h3="false" h4="false" />
+				<Skull id="_skull_catch"                h1="false" h2="true"  h3="true"  h4="true"  />
+				<Skull id="_skull_cowbell"              h1="false" h2="false" h3="true"  h4="true"  />
+				<Skull id="_skull_eye_patch"            h1="true"  h2="false" h3="false" h4="false" />
+				<Skull id="_skull_fog"                  h1="true"  h2="false" h3="true"  h4="true"  />
+				<Skull id="_skull_famine"               h1="true"  h2="true"  h3="true"  h4="true"  />
+				<Skull id="_skull_foreign"              h1="true"  h2="false" h3="false" h4="false" />
+				<Skull id="_skull_ghost"                h1="false" h2="true"  h3="false" h4="false" />
+				<Skull id="_skull_grunt_birthday_party" h1="true"  h2="true"  h3="true"  h4="true"  />
+				<Skull id="_skull_grunt_funeral"        h1="true"  h2="false" h3="false" h4="false" />
+				<Skull id="_skull_iron"                 h1="true"  h2="true"  h3="true"  h4="true"  />
+				<Skull id="_skull_iwhbyd"               h1="false" h2="true"  h3="true"  h4="true"  />
+				<Skull id="_skull_malfunction" 	        h1="true"  h2="false" h3="false" h4="false" />
+				<Skull id="_skull_mythic"               h1="true"  h2="true"  h3="true"  h4="true"  />
+				<Skull id="_skull_recession"            h1="true"  h2="false" h3="false" h4="false" />
+				<Skull id="_skull_sputnik"              h1="false" h2="true"  h3="false" h4="false" />
+				<Skull id="_skull_thats_just_wrong"     h1="false" h2="true"  h3="false" h4="false" />
+				<Skull id="_skull_thunderstorm"         h1="false" h2="true"  h3="true"  h4="true"  />
+				<Skull id="_skull_tilt"                 h1="false" h2="false" h3="true"  h4="true"  />
+				<Skull id="_skull_tough_luck"           h1="false" h2="false" h3="true"  h4="true"  />
+			</MasterSkullList>
+		</Playlist>
+		<Playlist id="MRCT_P17" name="$CT_Playlist_17_Title" desc="$CT_Playlist_17_Desc" image="HReach_Setlist_Placeholder" highestDiffID="_campaign_difficulty_level_hard" hasRallyPoints="false" singlePlayer="true">
+			<MapList>
+				<Map id="_map_id_haloreach_exodus" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_haloreach_the_pillar_of_autumn" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_uprising" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_the_great_journey" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_the_storm" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_the_ark" diffID="_campaign_difficulty_level_hard" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P18" name="$CT_Playlist_18_Title" desc="$CT_Playlist_18_Desc" image="HReach_Setlist_Placeholder" highestDiffID="_campaign_difficulty_level_hard" hasRallyPoints="true">
+			<MapList>
+				<Map id="_map_id_haloreach_long_night_of_solace" diffID="_campaign_difficulty_level_hard" insertionpoint="1" />
+				<Map id="_map_id_haloreach_new_alexandria" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_shutdown" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo4_midnight" diffID="_campaign_difficulty_level_hard" />
+			</MapList>
+		</Playlist>
+		<Playlist id="MRCT_P19" name="$CT_Playlist_19_Title" desc="$CT_Playlist_19_Desc" image="HReach_Setlist_Placeholder" highestDiffID="_campaign_difficulty_level_hard" hasRallyPoints="false">
+			<MapList>
+				<Map id="_map_id_haloreach_tip_of_the_spear" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo1_silent_cartographer" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo2_gravemind" diffID="_campaign_difficulty_level_hard" />
+				<Map id="_map_id_halo3_the_covenant" diffID="_campaign_difficulty_level_hard" />
+			</MapList>
+		</Playlist>
+	</CrossTitle>
+	<Extras>
+		<!-- Status: 0 = greyed out, 1 = visible, 2 = hidden, 3 = invalid -->
+		<Halo5Beta status="0" />
+	</Extras>
+</MissionPlaylists>
