@@ -1,0 +1,8 @@
+Map id='_map_id_halo4_dawn'
+Map id='_map_id_halo4_requiem'
+Map id='_map_id_halo4_forerunner'
+Map id='_map_id_halo4_infinity'
+Map id='_map_id_halo4_reclaimer'
+Map id='_map_id_halo4_shutdown'
+Map id='_map_id_halo4_composer'
+Map id='_map_id_halo4_midnight'

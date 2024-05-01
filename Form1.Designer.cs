@@ -95,6 +95,15 @@
             nightfall = new CheckBox();
             oniSwordBase = new CheckBox();
             WinterContingency = new CheckBox();
+            tabPage6 = new TabPage();
+            Midnight = new CheckBox();
+            Composer = new CheckBox();
+            Shutdown = new CheckBox();
+            Reclaimer = new CheckBox();
+            Infinity = new CheckBox();
+            Forerunner = new CheckBox();
+            Requiem = new CheckBox();
+            Dawn = new CheckBox();
             restore = new Button();
             Make = new Button();
             Legendary = new CheckBox();
@@ -116,15 +125,13 @@
             PathLabel = new Label();
             folderBrowserDialog1 = new FolderBrowserDialog();
             helpProvider1 = new HelpProvider();
-            tabPage6 = new TabPage();
-            Dawn = new CheckBox();
-            Requiem = new CheckBox();
-            Forerunner = new CheckBox();
-            Infinity = new CheckBox();
-            Reclaimer = new CheckBox();
-            Shutdown = new CheckBox();
-            Composer = new CheckBox();
-            Midnight = new CheckBox();
+            label6 = new Label();
+            CE = new CheckBox();
+            H2 = new CheckBox();
+            H3 = new CheckBox();
+            ODST = new CheckBox();
+            Reach = new CheckBox();
+            H4 = new CheckBox();
             tabControl1.SuspendLayout();
             Choose.SuspendLayout();
             tabControl2.SuspendLayout();
@@ -133,9 +140,9 @@
             tabPage3.SuspendLayout();
             tabPage4.SuspendLayout();
             tabPage5.SuspendLayout();
+            tabPage6.SuspendLayout();
             RandomPage.SuspendLayout();
             Settings.SuspendLayout();
-            tabPage6.SuspendLayout();
             SuspendLayout();
             // 
             // tabControl1
@@ -930,6 +937,112 @@
             WinterContingency.UseVisualStyleBackColor = true;
             WinterContingency.CheckedChanged += WinterContingency_CheckedChanged;
             // 
+            // tabPage6
+            // 
+            tabPage6.Controls.Add(Midnight);
+            tabPage6.Controls.Add(Composer);
+            tabPage6.Controls.Add(Shutdown);
+            tabPage6.Controls.Add(Reclaimer);
+            tabPage6.Controls.Add(Infinity);
+            tabPage6.Controls.Add(Forerunner);
+            tabPage6.Controls.Add(Requiem);
+            tabPage6.Controls.Add(Dawn);
+            tabPage6.Location = new Point(4, 24);
+            tabPage6.Name = "tabPage6";
+            tabPage6.Padding = new Padding(3);
+            tabPage6.Size = new Size(347, 327);
+            tabPage6.TabIndex = 5;
+            tabPage6.Text = "Halo 4";
+            tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // Midnight
+            // 
+            Midnight.AutoSize = true;
+            Midnight.Location = new Point(198, 240);
+            Midnight.Name = "Midnight";
+            Midnight.Size = new Size(75, 19);
+            Midnight.TabIndex = 7;
+            Midnight.Text = "Midnight";
+            Midnight.UseVisualStyleBackColor = true;
+            Midnight.CheckedChanged += Midnight_CheckedChanged;
+            // 
+            // Composer
+            // 
+            Composer.AutoSize = true;
+            Composer.Location = new Point(198, 163);
+            Composer.Name = "Composer";
+            Composer.Size = new Size(81, 19);
+            Composer.TabIndex = 6;
+            Composer.Text = "Composer";
+            Composer.UseVisualStyleBackColor = true;
+            Composer.CheckedChanged += Composer_CheckedChanged;
+            // 
+            // Shutdown
+            // 
+            Shutdown.AutoSize = true;
+            Shutdown.Location = new Point(198, 101);
+            Shutdown.Name = "Shutdown";
+            Shutdown.Size = new Size(80, 19);
+            Shutdown.TabIndex = 5;
+            Shutdown.Text = "Shutdown";
+            Shutdown.UseVisualStyleBackColor = true;
+            Shutdown.CheckedChanged += Shutdown_CheckedChanged;
+            // 
+            // Reclaimer
+            // 
+            Reclaimer.AutoSize = true;
+            Reclaimer.Location = new Point(198, 43);
+            Reclaimer.Name = "Reclaimer";
+            Reclaimer.Size = new Size(78, 19);
+            Reclaimer.TabIndex = 4;
+            Reclaimer.Text = "Reclaimer";
+            Reclaimer.UseVisualStyleBackColor = true;
+            Reclaimer.CheckedChanged += Reclaimer_CheckedChanged;
+            // 
+            // Infinity
+            // 
+            Infinity.AutoSize = true;
+            Infinity.Location = new Point(66, 240);
+            Infinity.Name = "Infinity";
+            Infinity.Size = new Size(63, 19);
+            Infinity.TabIndex = 3;
+            Infinity.Text = "Infinity";
+            Infinity.UseVisualStyleBackColor = true;
+            Infinity.CheckedChanged += Infinity_CheckedChanged;
+            // 
+            // Forerunner
+            // 
+            Forerunner.AutoSize = true;
+            Forerunner.Location = new Point(66, 163);
+            Forerunner.Name = "Forerunner";
+            Forerunner.Size = new Size(84, 19);
+            Forerunner.TabIndex = 2;
+            Forerunner.Text = "Forerunner";
+            Forerunner.UseVisualStyleBackColor = true;
+            Forerunner.CheckedChanged += Forerunner_CheckedChanged;
+            // 
+            // Requiem
+            // 
+            Requiem.AutoSize = true;
+            Requiem.Location = new Point(66, 101);
+            Requiem.Name = "Requiem";
+            Requiem.Size = new Size(73, 19);
+            Requiem.TabIndex = 1;
+            Requiem.Text = "Requiem";
+            Requiem.UseVisualStyleBackColor = true;
+            Requiem.CheckedChanged += Requiem_CheckedChanged;
+            // 
+            // Dawn
+            // 
+            Dawn.AutoSize = true;
+            Dawn.Location = new Point(66, 43);
+            Dawn.Name = "Dawn";
+            Dawn.Size = new Size(56, 19);
+            Dawn.TabIndex = 0;
+            Dawn.Text = "Dawn";
+            Dawn.UseVisualStyleBackColor = true;
+            Dawn.CheckedChanged += Dawn_CheckedChanged;
+            // 
             // restore
             // 
             restore.Location = new Point(622, 266);
@@ -974,6 +1087,13 @@
             // 
             // RandomPage
             // 
+            RandomPage.Controls.Add(H4);
+            RandomPage.Controls.Add(Reach);
+            RandomPage.Controls.Add(ODST);
+            RandomPage.Controls.Add(H3);
+            RandomPage.Controls.Add(H2);
+            RandomPage.Controls.Add(CE);
+            RandomPage.Controls.Add(label6);
             RandomPage.Controls.Add(RandLeg);
             RandomPage.Controls.Add(RandEasy);
             RandomPage.Controls.Add(label4);
@@ -995,7 +1115,7 @@
             // RandLeg
             // 
             RandLeg.AutoSize = true;
-            RandLeg.Location = new Point(634, 255);
+            RandLeg.Location = new Point(634, 240);
             RandLeg.Name = "RandLeg";
             RandLeg.Size = new Size(81, 19);
             RandLeg.TabIndex = 32;
@@ -1006,7 +1126,7 @@
             // RandEasy
             // 
             RandEasy.AutoSize = true;
-            RandEasy.Location = new Point(554, 255);
+            RandEasy.Location = new Point(556, 240);
             RandEasy.Name = "RandEasy";
             RandEasy.Size = new Size(49, 19);
             RandEasy.TabIndex = 31;
@@ -1017,7 +1137,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(601, 103);
+            label4.Location = new Point(598, 82);
             label4.Name = "label4";
             label4.Size = new Size(55, 15);
             label4.TabIndex = 8;
@@ -1026,7 +1146,7 @@
             // SemiRandom
             // 
             SemiRandom.AutoSize = true;
-            SemiRandom.Location = new Point(567, 186);
+            SemiRandom.Location = new Point(567, 163);
             SemiRandom.Name = "SemiRandom";
             SemiRandom.Size = new Size(148, 19);
             SemiRandom.TabIndex = 6;
@@ -1037,7 +1157,7 @@
             // FullRand
             // 
             FullRand.AutoSize = true;
-            FullRand.Location = new Point(567, 132);
+            FullRand.Location = new Point(567, 117);
             FullRand.Name = "FullRand";
             FullRand.Size = new Size(121, 19);
             FullRand.TabIndex = 5;
@@ -1047,7 +1167,7 @@
             // 
             // Randomize
             // 
-            Randomize.Location = new Point(351, 353);
+            Randomize.Location = new Point(334, 354);
             Randomize.Name = "Randomize";
             Randomize.Size = new Size(75, 23);
             Randomize.TabIndex = 4;
@@ -1058,7 +1178,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(175, 210);
+            label2.Location = new Point(98, 203);
             label2.Name = "label2";
             label2.Size = new Size(100, 15);
             label2.TabIndex = 3;
@@ -1067,7 +1187,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(207, 103);
+            label1.Location = new Point(127, 82);
             label1.Name = "label1";
             label1.Size = new Size(32, 15);
             label1.TabIndex = 2;
@@ -1075,14 +1195,14 @@
             // 
             // numLevels
             // 
-            numLevels.Location = new Point(175, 242);
+            numLevels.Location = new Point(98, 240);
             numLevels.Name = "numLevels";
             numLevels.Size = new Size(100, 23);
             numLevels.TabIndex = 1;
             // 
             // seed
             // 
-            seed.Location = new Point(175, 132);
+            seed.Location = new Point(98, 113);
             seed.MaxLength = 9;
             seed.Name = "seed";
             seed.Size = new Size(100, 23);
@@ -1133,111 +1253,80 @@
             // 
             helpProvider1.HelpNamespace = "resources/help.html";
             // 
-            // tabPage6
+            // label6
             // 
-            tabPage6.Controls.Add(Midnight);
-            tabPage6.Controls.Add(Composer);
-            tabPage6.Controls.Add(Shutdown);
-            tabPage6.Controls.Add(Reclaimer);
-            tabPage6.Controls.Add(Infinity);
-            tabPage6.Controls.Add(Forerunner);
-            tabPage6.Controls.Add(Requiem);
-            tabPage6.Controls.Add(Dawn);
-            tabPage6.Location = new Point(4, 24);
-            tabPage6.Name = "tabPage6";
-            tabPage6.Padding = new Padding(3);
-            tabPage6.Size = new Size(347, 327);
-            tabPage6.TabIndex = 5;
-            tabPage6.Text = "Halo 4";
-            tabPage6.UseVisualStyleBackColor = true;
+            label6.AutoSize = true;
+            label6.Location = new Point(334, 82);
+            label6.Name = "label6";
+            label6.Size = new Size(92, 15);
+            label6.TabIndex = 33;
+            label6.Text = "Included Games";
             // 
-            // Dawn
+            // CE
             // 
-            Dawn.AutoSize = true;
-            Dawn.Location = new Point(66, 43);
-            Dawn.Name = "Dawn";
-            Dawn.Size = new Size(56, 19);
-            Dawn.TabIndex = 0;
-            Dawn.Text = "Dawn";
-            Dawn.UseVisualStyleBackColor = true;
-            Dawn.CheckedChanged += Dawn_CheckedChanged;
+            CE.AutoSize = true;
+            CE.Location = new Point(348, 127);
+            CE.Name = "CE";
+            CE.Size = new Size(40, 19);
+            CE.TabIndex = 34;
+            CE.Text = "CE";
+            CE.UseVisualStyleBackColor = true;
+            CE.CheckedChanged += CE_CheckedChanged;
             // 
-            // Requiem
+            // H2
             // 
-            Requiem.AutoSize = true;
-            Requiem.Location = new Point(66, 101);
-            Requiem.Name = "Requiem";
-            Requiem.Size = new Size(73, 19);
-            Requiem.TabIndex = 1;
-            Requiem.Text = "Requiem";
-            Requiem.UseVisualStyleBackColor = true;
-            Requiem.CheckedChanged += Requiem_CheckedChanged;
+            H2.AutoSize = true;
+            H2.Location = new Point(348, 163);
+            H2.Name = "H2";
+            H2.Size = new Size(41, 19);
+            H2.TabIndex = 35;
+            H2.Text = "H2";
+            H2.UseVisualStyleBackColor = true;
+            H2.CheckedChanged += H2_CheckedChanged;
             // 
-            // Forerunner
+            // H3
             // 
-            Forerunner.AutoSize = true;
-            Forerunner.Location = new Point(66, 163);
-            Forerunner.Name = "Forerunner";
-            Forerunner.Size = new Size(84, 19);
-            Forerunner.TabIndex = 2;
-            Forerunner.Text = "Forerunner";
-            Forerunner.UseVisualStyleBackColor = true;
-            Forerunner.CheckedChanged += Forerunner_CheckedChanged;
+            H3.AutoSize = true;
+            H3.Location = new Point(348, 203);
+            H3.Name = "H3";
+            H3.Size = new Size(41, 19);
+            H3.TabIndex = 36;
+            H3.Text = "H3";
+            H3.UseVisualStyleBackColor = true;
+            H3.CheckedChanged += H3_CheckedChanged;
             // 
-            // Infinity
+            // ODST
             // 
-            Infinity.AutoSize = true;
-            Infinity.Location = new Point(66, 240);
-            Infinity.Name = "Infinity";
-            Infinity.Size = new Size(63, 19);
-            Infinity.TabIndex = 3;
-            Infinity.Text = "Infinity";
-            Infinity.UseVisualStyleBackColor = true;
-            Infinity.CheckedChanged += Infinity_CheckedChanged;
+            ODST.AutoSize = true;
+            ODST.Location = new Point(348, 240);
+            ODST.Name = "ODST";
+            ODST.Size = new Size(55, 19);
+            ODST.TabIndex = 37;
+            ODST.Text = "ODST";
+            ODST.UseVisualStyleBackColor = true;
+            ODST.CheckedChanged += ODST_CheckedChanged;
             // 
-            // Reclaimer
+            // Reach
             // 
-            Reclaimer.AutoSize = true;
-            Reclaimer.Location = new Point(198, 43);
-            Reclaimer.Name = "Reclaimer";
-            Reclaimer.Size = new Size(78, 19);
-            Reclaimer.TabIndex = 4;
-            Reclaimer.Text = "Reclaimer";
-            Reclaimer.UseVisualStyleBackColor = true;
-            Reclaimer.CheckedChanged += Reclaimer_CheckedChanged;
+            Reach.AutoSize = true;
+            Reach.Location = new Point(348, 274);
+            Reach.Name = "Reach";
+            Reach.Size = new Size(58, 19);
+            Reach.TabIndex = 38;
+            Reach.Text = "Reach";
+            Reach.UseVisualStyleBackColor = true;
+            Reach.CheckedChanged += Reach_CheckedChanged;
             // 
-            // Shutdown
+            // H4
             // 
-            Shutdown.AutoSize = true;
-            Shutdown.Location = new Point(198, 101);
-            Shutdown.Name = "Shutdown";
-            Shutdown.Size = new Size(80, 19);
-            Shutdown.TabIndex = 5;
-            Shutdown.Text = "Shutdown";
-            Shutdown.UseVisualStyleBackColor = true;
-            Shutdown.CheckedChanged += Shutdown_CheckedChanged;
-            // 
-            // Composer
-            // 
-            Composer.AutoSize = true;
-            Composer.Location = new Point(198, 163);
-            Composer.Name = "Composer";
-            Composer.Size = new Size(81, 19);
-            Composer.TabIndex = 6;
-            Composer.Text = "Composer";
-            Composer.UseVisualStyleBackColor = true;
-            Composer.CheckedChanged += Composer_CheckedChanged;
-            // 
-            // Midnight
-            // 
-            Midnight.AutoSize = true;
-            Midnight.Location = new Point(198, 240);
-            Midnight.Name = "Midnight";
-            Midnight.Size = new Size(75, 19);
-            Midnight.TabIndex = 7;
-            Midnight.Text = "Midnight";
-            Midnight.UseVisualStyleBackColor = true;
-            Midnight.CheckedChanged += Midnight_CheckedChanged;
+            H4.AutoSize = true;
+            H4.Location = new Point(348, 308);
+            H4.Name = "H4";
+            H4.Size = new Size(41, 19);
+            H4.TabIndex = 39;
+            H4.Text = "H4";
+            H4.UseVisualStyleBackColor = true;
+            H4.CheckedChanged += H4_CheckedChanged;
             // 
             // Form1
             // 
@@ -1263,12 +1352,12 @@
             tabPage4.PerformLayout();
             tabPage5.ResumeLayout(false);
             tabPage5.PerformLayout();
+            tabPage6.ResumeLayout(false);
+            tabPage6.PerformLayout();
             RandomPage.ResumeLayout(false);
             RandomPage.PerformLayout();
             Settings.ResumeLayout(false);
             Settings.PerformLayout();
-            tabPage6.ResumeLayout(false);
-            tabPage6.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -1369,5 +1458,12 @@
         private CheckBox Forerunner;
         private CheckBox Requiem;
         private CheckBox Dawn;
+        private CheckBox H2;
+        private CheckBox CE;
+        private Label label6;
+        private CheckBox H4;
+        private CheckBox Reach;
+        private CheckBox ODST;
+        private CheckBox H3;
     }
 }

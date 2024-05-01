@@ -7,6 +7,8 @@ using System;
 using System.IO;
 using System.Text;
 using System.Security.Cryptography;
+using select;
+using randomize;
 namespace HaloRuns
 {
     public partial class Form1 : Form
@@ -14,7 +16,7 @@ namespace HaloRuns
         public Form1()
         {
             InitializeComponent();
-            
+
             //sets the path you save your file to to the path in path.txt
             PathLabel.Text = path;
             //centers the path text shown in the settings tab
@@ -46,7 +48,7 @@ namespace HaloRuns
         //this array is used for the mombasa streets insertion points
         bool[] hasInsert = new bool[65];
         //and this is the number that tells which insertion point to add
-        int[] instert = new int[65];
+        int[] insert = new int[65];
 
         //reads the path from the file "path.txt"
         string path = File.ReadAllText("resources/path.txt");
@@ -54,10 +56,8 @@ namespace HaloRuns
         //arrays used to track which missions will be added top the file in the randomizer
         //this one is used to keep track of missions in the randomizer
         string[] curMissions = new string[0];
-        //this one is used to make sure the same level isnt used twice
-        string[] usedMissions = new string[0];
         //this one checks for insertion points
-        int[] curInstert = new int[0];
+        int[] curInsert = new int[0];
 
         //bools for which type of randomization is applied to the difficulty
         bool fullRand;
@@ -67,78 +67,7 @@ namespace HaloRuns
         bool finding = true;
 
         //the map names of ever mission in the game
-        string[] Names = new string[65] {
-            //ce
-            "Map id ='_map_id_halo1_pillar_of_autumn'",
-            "Map id ='_map_id_halo1_halo'",
-            "Map id ='_map_id_halo1_truth_and_reconciliation'",
-            "Map id ='_map_id_halo1_silent_cartographer'",
-            "Map id ='_map_id_halo1_assault_on_the_control_room'",
-            "Map id ='_map_id_halo1_343_guilty_spark'",
-            "Map id ='_map_id_halo1_the_library'",
-            "Map id ='_map_id_halo1_two_betrayals'",
-            "Map id ='_map_id_halo1_keyes'",
-            "Map id ='_map_id_halo1_the_maw'",
-            //h2
-            "Map id ='_map_id_halo2_the_armory'",
-            "Map id ='_map_id_halo2_cairo_station'",
-            "Map id ='_map_id_halo2_outskirts'",
-            "Map id ='_map_id_halo2_metropolis'",
-            "Map id ='_map_id_halo2_the_arbiter'",
-            "Map id ='_map_id_halo2_the_oracle'",
-            "Map id ='_map_id_halo2_delta_halo'",
-            "Map id ='_map_id_halo2_regret'",
-            "Map id ='_map_id_halo2_sacred_icon'",
-            "Map id ='_map_id_halo2_quarantine_zone'",
-            "Map id ='_map_id_halo2_gravemind'",
-            "Map id ='_map_id_halo2_uprising'",
-            "Map id ='_map_id_halo2_high_charity'",
-            "Map id ='_map_id_halo2_the_great_journey'",
-            //h3
-            "Map id ='_map_id_halo3_sierra_117'",
-            "Map id ='_map_id_halo3_crows_nest'",
-            "Map id ='_map_id_halo3_tsavo_highway'",
-            "Map id ='_map_id_halo3_the_storm'",
-            "Map id ='_map_id_halo3_floodgate'",
-            "Map id ='_map_id_halo3_the_ark'",
-            "Map id ='_map_id_halo3_the_covenant'",
-            "Map id ='_map_id_halo3_cortana'",
-            "Map id ='_map_id_halo3_halo'",
-            //odst
-            "Map id='_map_id_halo3odst_mombasa_streets'",
-            "Map id='_map_id_halo3odst_tayari_plaza'",
-            "Map id='_map_id_halo3odst_mombasa_streets'",
-            "Map id='_map_id_halo3odst_uplift_reserve'",
-            "Map id='_map_id_halo3odst_mombasa_streets'",
-            "Map id='_map_id_halo3odst_kizingo_boulevard'",
-            "Map id='_map_id_halo3odst_mombasa_streets'",
-            "Map id='_map_id_halo3odst_oni_alpha_site'",
-            "Map id='_map_id_halo3odst_mombasa_streets'",
-            "Map id='_map_id_halo3odst_nmpd_hq'",
-            "Map id='_map_id_halo3odst_mombasa_streets'",
-            "Map id='_map_id_halo3odst_kikowani_station'",
-            "Map id='_map_id_halo3odst_mombasa_streets'",
-            "Map id='_map_id_halo3odst_data_hive'",
-            "Map id='_map_id_halo3odst_coastal_highway'",
-            // reach
-            "Map id ='_map_id_haloreach_winter_contingency'",
-            "Map id='_map_id_haloreach_oni_sword_base'",
-            "Map id='_map_id_haloreach_nightfall'",
-            "Map id='_map_id_haloreach_tip_of_the_spear'",
-            "Map id='_map_id_haloreach_long_night_of_solace'",
-            "Map id='_map_id_haloreach_exodus'",
-            "Map id='_map_id_haloreach_new_alexandria'",
-            "Map id='_map_id_haloreach_the_package'",
-            "Map id='_map_id_haloreach_the_pillar_of_autumn'",
-            "Map id='_map_id_halo4_dawn'",
-            "Map id='_map_id_halo4_requiem'",
-            "Map id='_map_id_halo4_forerunner'",
-            "Map id='_map_id_halo4_infinity'",
-            "Map id='_map_id_halo4_reclaimer'",
-            "Map id='_map_id_halo4_shutdown'",
-            "Map id='_map_id_halo4_composer'",
-            "Map id='_map_id_halo4_midnight'"
-                };
+        string[] Names = new string[0];
 
         #region levelChecks
         //these change the state of the bools in "missions" whenever you mess with the corresponding checkbox
@@ -474,77 +403,43 @@ namespace HaloRuns
         }
         #endregion
 
-        private void reset()
+        //checks for seeing what games will be active in the randomizer
+        bool[] activeGames = new bool[6];
+        private void CE_CheckedChanged(object sender, EventArgs e)
         {
-            //sets the output back to the default whenever a button is pressed. if you dont do this if you make the file twice it will paste in the text twice.
-            output = $@"<?xml version=""1.0"" encoding=""utf-8""?>
-            <!--Please increment version number inside the MissionPlaylists tag if the list is updated.  The game uses version number to ensure coop players have same data and also save games will be based on this (The version inside XML tag is not used.)-->
-            <MissionPlaylists version=""4"">
-	            <Halo1 />
-	            <Halo2 />
-	            <Halo3 />
-	            <Halo3ODST />
-	            <HaloReach />
-	            <Halo4 />
-	            <CrossTitle>
-		            <Playlist id=""hydraulic"" name=""Randomizer Playlist"" desc=""H4sIAAAAAAAAAzNkqGHIYKhkSGEoYkhkKGXIYchkSAaKGQCxIZSGsEGkH5ilx2DEYApmYUIDukIAM+Jwa74AAAA="" image=""CT_Setlist_Preview_01"" highestDiffID=""_campaign_difficulty_level_easy"" hasRallyPoints=""false"">
-			            <MapList>
-                            ";
+            activeGames[0] = !activeGames[0];
+        }
 
-            //resizes arrays and deletes the elements in them for the randomizer
-            Array.Clear(curMissions, 0, curMissions.Length);
-            Array.Resize(ref curMissions, 0);
+        private void H2_CheckedChanged(object sender, EventArgs e)
+        {
+            activeGames[1] = !activeGames[1];
+        }
 
-            Array.Clear(usedMissions, 0, usedMissions.Length);
-            Array.Resize(ref usedMissions, 0);
+        private void H3_CheckedChanged(object sender, EventArgs e)
+        {
+            activeGames[2] = !activeGames[2];
+        }
 
-            Array.Clear(curInstert, 0, curInstert.Length);
-            Array.Resize(ref curInstert, 0);
+        private void ODST_CheckedChanged(object sender, EventArgs e)
+        {
+            activeGames[3] = !activeGames[3];
+        }
 
-            //sets the mombasa streets levels insertion points
-            hasInsert[35] = true; instert[35] = 1;
-            hasInsert[37] = true; instert[37] = 2;
-            hasInsert[39] = true; instert[39] = 3;
-            hasInsert[41] = true; instert[41] = 4;
-            hasInsert[43] = true; instert[43] = 5;
-            hasInsert[45] = true; instert[45] = 6;
+        private void Reach_CheckedChanged(object sender, EventArgs e)
+        {
+            activeGames[4] = !activeGames[4];
+        }
 
+        private void H4_CheckedChanged(object sender, EventArgs e)
+        {
+            activeGames[5] = !activeGames[5];
         }
 
         private void Make_Click(object sender, EventArgs e)
         {
-            reset();
-
-            //this loop goes through every bool in "Missions" and if it is true adds the value from "Names" to "Output"
-            //there is also code to check for insertion points and if it has them tags it at the end of the string were adding
-            for (int i = 0; i < 65; i++)
-            {
-                if (Missions[i] == true && hasInsert[i] == true)
-                {
-                    output = output + ("<" + Names[i] + " diffID='" + difficulty + "' insertionpoint='" + instert[i] + "'  />");
-                }
-                else
-                {
-                    if (Missions[i] == true)
-                    {
-                        output = output + ("<" + Names[i] + " diffID='" + difficulty + "'  />");
-                    }
-                }
-            }
-    
-            //adds the code the close out the file to "Output"
-            output = output +
-                        $@"</MapList>
-		            </Playlist>
-	            </CrossTitle>
-	            <Extras>
-		            <!-- Status: 0 = greyed out, 1 = visible, 2 = hidden, 3 = invalid -->
-		            <Halo5Beta status=""0"" />
-	            </Extras>
-            </MissionPlaylists>";
-
-            //writes the data in output to the path youve selected
-            File.WriteAllText(path, output);
+            Select selectCode = new Select();
+            selectCode.reset(ref Names, ref insert);
+            selectCode.create(Missions, insert, Names, difficulty, output, path);
         }
 
         private void restore_Click(object sender, EventArgs e)
@@ -582,101 +477,11 @@ namespace HaloRuns
 
         private void Randomize_Click(object sender, EventArgs e)
         {
-            reset();
-            
-            //generates a random number with the seed you put between the range of 0 and 64
-            int Seed = int.Parse(seed.Text);
-            Random num = new Random(Seed);
-            int numIndex = num.Next(0, 64);
-
-            //generates a random number for the difficulty
-            Random diff = new Random(Seed);
-            int diffIndex = diff.Next(0, 2);
-
-            //loops as many times as the number entered into the "number of levels" field in the randomize tab
-            for (int i = 0; i < int.Parse(numLevels.Text); i++)
-            {
-                finding = true;
-                //makes the length of "curMissions" = to the number of levels entered
-                Array.Resize(ref curMissions, int.Parse(numLevels.Text));
-
-                //this is where the finding variable comes into play
-                //its a bool that remains true if the program selects a level thats already been used
-                //once it finds a new level it sets to false ending the loop and starting the next iteration of the for loop
-                while (finding)
-                {
-                    //pick a random number
-                    numIndex = num.Next(0, 64);
-
-                    //check if the level has been used already
-                    if (!Array.Exists(curMissions, element => element == Names[numIndex]))
-                    {
-                        //if it hasnt stop the while loop and add the mission name to an array
-                        finding = false;
-                        curMissions[i] = Names[numIndex];
-                        if (hasInsert[numIndex] == true)
-                        {
-                            curInstert[i] = instert[numIndex];
-                        }
-                    }
-                }
-            }
-
-            //if the selected option was "random per playlist" it uses the random number generated earlier to determine the difficulty
-            if (semiRand)
-            {
-                if (diffIndex == 0)
-                {
-                    difficulty = "_campaign_difficulty_level_impossible";
-                }
-                else
-                {
-                    difficulty = "_campaign_difficulty_level_easy";
-                }
-            }
-
-            for (int i = 0; i < curMissions.Length; i++)
-            {
-                //this one uses the same variable as the semirand but changes the value to be random for every mission
-                if (fullRand)
-                {
-                    diffIndex = diff.Next(0, 2);
-                    if (diffIndex == 0)
-                    {
-                        difficulty = "_campaign_difficulty_level_impossible";
-                    }
-                    else
-                    {
-                        difficulty = "_campaign_difficulty_level_easy";
-                    }
-                }
-
-                //checks for the mombasa streets insertion points
-                if (curInstert[i] != 0)
-                {
-                    //if the level has insertion points it will add them to the end
-                    output = output + ("<" + curMissions[i] + " diffID='" + difficulty + "' insertionpoint='" + instert[i] + "'  />");
-                }
-                else
-                {
-                    //if not it will add the standard mission code
-                    output = output + ("<" + curMissions[i] + " diffID='" + difficulty + "'  />");
-                }
-            }
-
-            //adds the code the close out the file to "Output"
-            output = output +
-                        $@"</MapList>
-		            </Playlist>
-	            </CrossTitle>
-	            <Extras>
-		            <!-- Status: 0 = greyed out, 1 = visible, 2 = hidden, 3 = invalid -->
-		            <Halo5Beta status=""0"" />
-	            </Extras>
-            </MissionPlaylists>";
-
-            //writes the data in output to the path youve selected
-            File.WriteAllText(path, output);
+            Randomize randCode = new Randomize();
+            randCode.reset(ref Names, activeGames, ref insert, ref curMissions, ref curInsert);
+            randCode.choose(ref Names, ref curMissions, insert, ref curInsert, seed, numLevels);
+            randCode.difficulty(semiRand, difficulty, seed);
+            randCode.create(curMissions, difficulty, fullRand, curInsert, output, seed, path);
         }
 
         private void ChangePath_Click(object sender, EventArgs e)
