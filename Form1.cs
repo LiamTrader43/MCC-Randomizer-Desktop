@@ -45,8 +45,6 @@ namespace HaloRuns
         //a bool array to keep track of which missions are selected
         bool[] Missions = new bool[65];
 
-        //this array is used for the mombasa streets insertion points
-        bool[] hasInsert = new bool[65];
         //and this is the number that tells which insertion point to add
         int[] insert = new int[65];
 
@@ -72,368 +70,86 @@ namespace HaloRuns
         #region levelChecks
         //these change the state of the bools in "missions" whenever you mess with the corresponding checkbox
         //CE
-        private void PoAce_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[0] = !Missions[0];
-        }
-
-        private void Haloce_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[1] = !Missions[1];
-        }
-
-        private void TnR_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[2] = !Missions[2];
-        }
-
-        private void SC_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[3] = !Missions[3];
-        }
-
-        private void AotCR_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[4] = !Missions[4];
-        }
-
-        private void GS_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[5] = !Missions[5];
-        }
-
-        private void Library_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[6] = !Missions[6];
-        }
-
-        private void TB_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[7] = !Missions[7];
-        }
-
-        private void Keys_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[8] = !Missions[8];
-        }
-
-        private void Maw_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[9] = !Missions[9];
-        }
-
+        private void PoAce_CheckedChanged(object sender, EventArgs e) { Missions[0] = !Missions[0]; }
+        private void Haloce_CheckedChanged(object sender, EventArgs e) { Missions[1] = !Missions[1]; }
+        private void TnR_CheckedChanged(object sender, EventArgs e) { Missions[2] = !Missions[2]; }
+        private void SC_CheckedChanged(object sender, EventArgs e) { Missions[3] = !Missions[3]; }
+        private void AotCR_CheckedChanged(object sender, EventArgs e) { Missions[4] = !Missions[4]; }
+        private void GS_CheckedChanged(object sender, EventArgs e) { Missions[5] = !Missions[5]; }
+        private void Library_CheckedChanged(object sender, EventArgs e) { Missions[6] = !Missions[6]; }
+        private void TB_CheckedChanged(object sender, EventArgs e) { Missions[7] = !Missions[7]; }
+        private void Keys_CheckedChanged(object sender, EventArgs e) { Missions[8] = !Missions[8]; }
+        private void Maw_CheckedChanged(object sender, EventArgs e) { Missions[9] = !Missions[9]; }
         //H2
-        private void Armory_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[10] = !Missions[10];
-        }
-
-        private void Cairo_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[11] = !Missions[11];
-        }
-
-        private void Outskirts_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[12] = !Missions[12];
-        }
-
-        private void Metropolis_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[13] = !Missions[13];
-        }
-
-        private void Arbiter_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[14] = !Missions[14];
-        }
-
-        private void Oracle_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[15] = !Missions[15];
-        }
-
-        private void DeltaHalo_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[16] = !Missions[16];
-        }
-
-        private void Regret_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[17] = !Missions[17];
-        }
-
-        private void SacredIcon_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[18] = !Missions[18];
-        }
-
-        private void qtZone_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[19] = !Missions[19];
-        }
-
-        private void Gravemind_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[20] = !Missions[20];
-        }
-
-        private void Uprising_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[21] = !Missions[21];
-        }
-
-        private void HighCharity_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[22] = !Missions[22];
-        }
-
-        private void GreatJorney_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[23] = !Missions[23];
-        }
-
+        private void Armory_CheckedChanged(object sender, EventArgs e) { Missions[10] = !Missions[10]; }
+        private void Cairo_CheckedChanged(object sender, EventArgs e) { Missions[11] = !Missions[11]; }
+        private void Outskirts_CheckedChanged(object sender, EventArgs e) { Missions[12] = !Missions[12]; }
+        private void Metropolis_CheckedChanged(object sender, EventArgs e) { Missions[13] = !Missions[13]; }
+        private void Arbiter_CheckedChanged(object sender, EventArgs e) { Missions[14] = !Missions[14]; }
+        private void Oracle_CheckedChanged(object sender, EventArgs e) { Missions[15] = !Missions[15]; }
+        private void DeltaHalo_CheckedChanged(object sender, EventArgs e) { Missions[16] = !Missions[16]; }
+        private void Regret_CheckedChanged(object sender, EventArgs e) { Missions[17] = !Missions[17]; }
+        private void SacredIcon_CheckedChanged(object sender, EventArgs e) { Missions[18] = !Missions[18]; }
+        private void qtZone_CheckedChanged(object sender, EventArgs e) { Missions[19] = !Missions[19]; }
+        private void Gravemind_CheckedChanged(object sender, EventArgs e) { Missions[20] = !Missions[20]; }
+        private void Uprising_CheckedChanged(object sender, EventArgs e) { Missions[21] = !Missions[21]; }
+        private void HighCharity_CheckedChanged(object sender, EventArgs e) { Missions[22] = !Missions[22]; }
+        private void GreatJorney_CheckedChanged(object sender, EventArgs e) { Missions[23] = !Missions[23]; }
         //h3
-        private void Sierra117_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[24] = !Missions[24];
-        }
-
-        private void CrowsNest_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[25] = !Missions[25];
-        }
-
-        private void Tsavo_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[26] = !Missions[26];
-        }
-
-        private void Storm_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[27] = !Missions[27];
-        }
-
-        private void FloodGate_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[28] = !Missions[28];
-        }
-
-        private void Ark_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[29] = !Missions[29];
-        }
-
-        private void Covenatnt_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[30] = !Missions[30];
-        }
-
-        private void Cortana_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[31] = !Missions[31];
-        }
-
-        private void Haloh3_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[32] = !Missions[32];
-        }
-
+        private void Sierra117_CheckedChanged(object sender, EventArgs e) { Missions[24] = !Missions[24]; }
+        private void CrowsNest_CheckedChanged(object sender, EventArgs e) { Missions[25] = !Missions[25]; }
+        private void Tsavo_CheckedChanged(object sender, EventArgs e) { Missions[26] = !Missions[26]; }
+        private void Storm_CheckedChanged(object sender, EventArgs e) { Missions[27] = !Missions[27]; }
+        private void FloodGate_CheckedChanged(object sender, EventArgs e) { Missions[28] = !Missions[28]; }
+        private void Ark_CheckedChanged(object sender, EventArgs e) { Missions[29] = !Missions[29]; }
+        private void Covenatnt_CheckedChanged(object sender, EventArgs e) { Missions[30] = !Missions[30]; }
+        private void Cortana_CheckedChanged(object sender, EventArgs e) { Missions[31] = !Missions[31]; }
+        private void Haloh3_CheckedChanged(object sender, EventArgs e) { Missions[32] = !Missions[32]; }
         //odst
-        private void Mombasa1_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[33] = !Missions[33];
-        }
-
-        private void TayariPlaza_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[34] = !Missions[34];
-        }
-
-        private void Mombasa2_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[35] = !Missions[35];
-        }
-
-        private void UpliftReserve_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[36] = !Missions[36];
-        }
-
-        private void Mombasa3_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[37] = !Missions[37];
-        }
-
-        private void kizingoBoulevard_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[38] = !Missions[38];
-        }
-
-        private void Mombasa4_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[39] = !Missions[39];
-        }
-
-        private void OniAlphaSite_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[40] = !Missions[40];
-        }
-
-        private void Mombasa5_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[41] = !Missions[41];
-        }
-
-        private void NMPDHQ_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[42] = !Missions[42];
-        }
-
-        private void Mombasa6_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[43] = !Missions[43];
-        }
-
-        private void KikowaniStation_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[44] = !Missions[44];
-        }
-
-        private void Mombasa7_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[45] = !Missions[45];
-        }
-
-        private void DataHive_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[46] = !Missions[46];
-        }
-
-        private void CoastalHighway_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[47] = !Missions[47];
-        }
-
+        private void Mombasa1_CheckedChanged(object sender, EventArgs e) { Missions[33] = !Missions[33]; }
+        private void TayariPlaza_CheckedChanged(object sender, EventArgs e) { Missions[34] = !Missions[34]; }
+        private void Mombasa2_CheckedChanged(object sender, EventArgs e) { Missions[35] = !Missions[35]; }
+        private void UpliftReserve_CheckedChanged(object sender, EventArgs e) { Missions[36] = !Missions[36]; }
+        private void Mombasa3_CheckedChanged(object sender, EventArgs e) { Missions[37] = !Missions[37]; }
+        private void kizingoBoulevard_CheckedChanged(object sender, EventArgs e) { Missions[38] = !Missions[38]; }
+        private void Mombasa4_CheckedChanged(object sender, EventArgs e) { Missions[39] = !Missions[39]; }
+        private void OniAlphaSite_CheckedChanged(object sender, EventArgs e) { Missions[40] = !Missions[40]; }
+        private void Mombasa5_CheckedChanged(object sender, EventArgs e) { Missions[41] = !Missions[41]; }
+        private void NMPDHQ_CheckedChanged(object sender, EventArgs e) { Missions[42] = !Missions[42]; }
+        private void Mombasa6_CheckedChanged(object sender, EventArgs e) { Missions[43] = !Missions[43]; }
+        private void KikowaniStation_CheckedChanged(object sender, EventArgs e) { Missions[44] = !Missions[44]; }
+        private void Mombasa7_CheckedChanged(object sender, EventArgs e) { Missions[45] = !Missions[45]; }
+        private void DataHive_CheckedChanged(object sender, EventArgs e) { Missions[46] = !Missions[46]; }
+        private void CoastalHighway_CheckedChanged(object sender, EventArgs e) { Missions[47] = !Missions[47]; }
         //reach
-        private void WinterContingency_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[48] = !Missions[48];
-        }
-
-        private void oniSwordBase_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[49] = !Missions[49];
-        }
-
-        private void nightfall_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[50] = !Missions[50];
-        }
-
-        private void tots_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[51] = !Missions[51];
-        }
-
-        private void lnos_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[52] = !Missions[52];
-        }
-
-        private void Exodus_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[53] = !Missions[53];
-        }
-
-        private void newAlexandria_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[54] = !Missions[54];
-        }
-
-        private void package_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[55] = !Missions[55];
-        }
-
-        private void PoAReach_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[56] = !Missions[56];
-        }
-
+        private void WinterContingency_CheckedChanged(object sender, EventArgs e) { Missions[48] = !Missions[48]; }
+        private void oniSwordBase_CheckedChanged(object sender, EventArgs e) { Missions[49] = !Missions[49]; }
+        private void nightfall_CheckedChanged(object sender, EventArgs e) { Missions[50] = !Missions[50]; }
+        private void tots_CheckedChanged(object sender, EventArgs e) { Missions[51] = !Missions[51]; }
+        private void lnos_CheckedChanged(object sender, EventArgs e) { Missions[52] = !Missions[52]; }
+        private void Exodus_CheckedChanged(object sender, EventArgs e) { Missions[53] = !Missions[53]; }
+        private void newAlexandria_CheckedChanged(object sender, EventArgs e) { Missions[54] = !Missions[54]; }
+        private void package_CheckedChanged(object sender, EventArgs e) { Missions[55] = !Missions[55]; }
+        private void PoAReach_CheckedChanged(object sender, EventArgs e) { Missions[56] = !Missions[56]; }
         //h4
-        private void Dawn_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[57] = !Missions[57];
-        }
-
-        private void Requiem_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[58] = !Missions[58];
-        }
-
-        private void Forerunner_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[59] = !Missions[59];
-        }
-
-        private void Infinity_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[60] = !Missions[60];
-        }
-
-        private void Reclaimer_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[61] = !Missions[61];
-        }
-
-        private void Shutdown_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[62] = !Missions[62];
-        }
-
-        private void Composer_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[63] = !Missions[63];
-        }
-
-        private void Midnight_CheckedChanged(object sender, EventArgs e)
-        {
-            Missions[64] = !Missions[64];
-        }
+        private void Dawn_CheckedChanged(object sender, EventArgs e) { Missions[57] = !Missions[57]; }
+        private void Requiem_CheckedChanged(object sender, EventArgs e) { Missions[58] = !Missions[58]; }
+        private void Forerunner_CheckedChanged(object sender, EventArgs e) { Missions[59] = !Missions[59]; }
+        private void Infinity_CheckedChanged(object sender, EventArgs e) { Missions[60] = !Missions[60]; }
+        private void Reclaimer_CheckedChanged(object sender, EventArgs e) { Missions[61] = !Missions[61]; }
+        private void Shutdown_CheckedChanged(object sender, EventArgs e) { Missions[62] = !Missions[62]; }
+        private void Composer_CheckedChanged(object sender, EventArgs e) { Missions[63] = !Missions[63]; }
+        private void Midnight_CheckedChanged(object sender, EventArgs e) { Missions[64] = !Missions[64]; }
         #endregion
 
         //checks for seeing what games will be active in the randomizer
         bool[] activeGames = new bool[6];
-        private void CE_CheckedChanged(object sender, EventArgs e)
-        {
-            activeGames[0] = !activeGames[0];
-        }
-
-        private void H2_CheckedChanged(object sender, EventArgs e)
-        {
-            activeGames[1] = !activeGames[1];
-        }
-
-        private void H3_CheckedChanged(object sender, EventArgs e)
-        {
-            activeGames[2] = !activeGames[2];
-        }
-
-        private void ODST_CheckedChanged(object sender, EventArgs e)
-        {
-            activeGames[3] = !activeGames[3];
-        }
-
-        private void Reach_CheckedChanged(object sender, EventArgs e)
-        {
-            activeGames[4] = !activeGames[4];
-        }
-
-        private void H4_CheckedChanged(object sender, EventArgs e)
-        {
-            activeGames[5] = !activeGames[5];
-        }
+        private void CE_CheckedChanged(object sender, EventArgs e) { activeGames[0] = !activeGames[0]; }
+        private void H2_CheckedChanged(object sender, EventArgs e) { activeGames[1] = !activeGames[1]; }
+        private void H3_CheckedChanged(object sender, EventArgs e) { activeGames[2] = !activeGames[2]; }
+        private void ODST_CheckedChanged(object sender, EventArgs e) { activeGames[3] = !activeGames[3]; }
+        private void Reach_CheckedChanged(object sender, EventArgs e) { activeGames[4] = !activeGames[4]; }
+        private void H4_CheckedChanged(object sender, EventArgs e) { activeGames[5] = !activeGames[5]; }
 
         private void Make_Click(object sender, EventArgs e)
         {
@@ -453,6 +169,8 @@ namespace HaloRuns
         {
             difficulty = "_campaign_difficulty_level_easy";
             Legendary.Checked = false;
+            Heroic.Checked = false;
+            Normal.Checked = false;
 
             SemiRandom.Checked = false;
             FullRand.Checked = false;
@@ -466,6 +184,37 @@ namespace HaloRuns
         {
             difficulty = "_campaign_difficulty_level_impossible";
             Easy.Checked = false;
+            Normal.Checked = false;
+            Heroic.Checked = false;
+
+            SemiRandom.Checked = false;
+            FullRand.Checked = false;
+            RandEasy.Checked = false;
+
+            fullRand = false;
+            semiRand = false;
+        }
+        private void Normal_CheckedChanged(object sender, EventArgs e)
+        {
+            difficulty = "_campaign_difficulty_level_normal";
+            Easy.Checked = false;
+            Legendary.Checked = false;
+            Heroic.Checked = false;
+
+            SemiRandom.Checked = false;
+            FullRand.Checked = false;
+            RandEasy.Checked = false;
+
+            fullRand = false;
+            semiRand = false;
+        }
+
+        private void Heroic_CheckedChanged(object sender, EventArgs e)
+        {
+            difficulty = "_campaign_difficulty_level_heroic";
+            Easy.Checked = false;
+            Legendary.Checked = false;
+            Normal.Checked = false;
 
             SemiRandom.Checked = false;
             FullRand.Checked = false;
@@ -480,7 +229,10 @@ namespace HaloRuns
             Randomize randCode = new Randomize();
             randCode.reset(ref Names, activeGames, ref insert, ref curMissions, ref curInsert);
             randCode.choose(ref Names, ref curMissions, insert, ref curInsert, seed, numLevels);
-            randCode.difficulty(semiRand, difficulty, seed);
+            if (semiRand)
+            {
+                randCode.RandDiff(difficulty, seed);
+            }
             randCode.create(curMissions, difficulty, fullRand, curInsert, output, seed, path);
         }
 

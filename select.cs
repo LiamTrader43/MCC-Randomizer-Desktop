@@ -16,6 +16,17 @@ namespace select
             insertSetup(ref insert);
         }
 
+        private void add(string filename, ref string[] Names, int start, int end)
+        {
+            using (var reader = new StreamReader(filename))
+            {
+                for (start = start; end < 10; start++)
+                {
+                    Names[start] = reader.ReadLine();
+                }
+            }
+        }
+
         public void namesSetup(ref string[] Names)
         {
             Array.Clear(Names, 0, Names.Length);

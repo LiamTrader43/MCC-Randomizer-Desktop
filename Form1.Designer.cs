@@ -31,6 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             tabControl1 = new TabControl();
             Choose = new TabPage();
+            Normal = new CheckBox();
+            Heroic = new CheckBox();
             tabControl2 = new TabControl();
             tabPage1 = new TabPage();
             PoAce = new CheckBox();
@@ -109,6 +111,13 @@
             Legendary = new CheckBox();
             Easy = new CheckBox();
             RandomPage = new TabPage();
+            H4 = new CheckBox();
+            Reach = new CheckBox();
+            ODST = new CheckBox();
+            H3 = new CheckBox();
+            H2 = new CheckBox();
+            CE = new CheckBox();
+            label6 = new Label();
             RandLeg = new CheckBox();
             RandEasy = new CheckBox();
             label4 = new Label();
@@ -125,13 +134,8 @@
             PathLabel = new Label();
             folderBrowserDialog1 = new FolderBrowserDialog();
             helpProvider1 = new HelpProvider();
-            label6 = new Label();
-            CE = new CheckBox();
-            H2 = new CheckBox();
-            H3 = new CheckBox();
-            ODST = new CheckBox();
-            Reach = new CheckBox();
-            H4 = new CheckBox();
+            heroRand = new CheckBox();
+            normRand = new CheckBox();
             tabControl1.SuspendLayout();
             Choose.SuspendLayout();
             tabControl2.SuspendLayout();
@@ -158,6 +162,8 @@
             // 
             // Choose
             // 
+            Choose.Controls.Add(Normal);
+            Choose.Controls.Add(Heroic);
             Choose.Controls.Add(tabControl2);
             Choose.Controls.Add(restore);
             Choose.Controls.Add(Make);
@@ -170,6 +176,28 @@
             Choose.TabIndex = 0;
             Choose.Text = "Select";
             Choose.UseVisualStyleBackColor = true;
+            // 
+            // Normal
+            // 
+            Normal.AutoSize = true;
+            Normal.Location = new Point(614, 119);
+            Normal.Name = "Normal";
+            Normal.Size = new Size(66, 19);
+            Normal.TabIndex = 36;
+            Normal.Text = "Normal";
+            Normal.UseVisualStyleBackColor = true;
+            Normal.CheckedChanged += Normal_CheckedChanged;
+            // 
+            // Heroic
+            // 
+            Heroic.AutoSize = true;
+            Heroic.Location = new Point(483, 169);
+            Heroic.Name = "Heroic";
+            Heroic.Size = new Size(61, 19);
+            Heroic.TabIndex = 35;
+            Heroic.Text = "Heroic";
+            Heroic.UseVisualStyleBackColor = true;
+            Heroic.CheckedChanged += Heroic_CheckedChanged;
             // 
             // tabControl2
             // 
@@ -1066,7 +1094,7 @@
             // Legendary
             // 
             Legendary.AutoSize = true;
-            Legendary.Location = new Point(622, 152);
+            Legendary.Location = new Point(616, 169);
             Legendary.Name = "Legendary";
             Legendary.Size = new Size(81, 19);
             Legendary.TabIndex = 30;
@@ -1077,7 +1105,7 @@
             // Easy
             // 
             Easy.AutoSize = true;
-            Easy.Location = new Point(472, 152);
+            Easy.Location = new Point(483, 119);
             Easy.Name = "Easy";
             Easy.Size = new Size(49, 19);
             Easy.TabIndex = 29;
@@ -1087,6 +1115,8 @@
             // 
             // RandomPage
             // 
+            RandomPage.Controls.Add(normRand);
+            RandomPage.Controls.Add(heroRand);
             RandomPage.Controls.Add(H4);
             RandomPage.Controls.Add(Reach);
             RandomPage.Controls.Add(ODST);
@@ -1112,10 +1142,85 @@
             RandomPage.Text = "Random";
             RandomPage.UseVisualStyleBackColor = true;
             // 
+            // H4
+            // 
+            H4.AutoSize = true;
+            H4.Location = new Point(348, 308);
+            H4.Name = "H4";
+            H4.Size = new Size(41, 19);
+            H4.TabIndex = 39;
+            H4.Text = "H4";
+            H4.UseVisualStyleBackColor = true;
+            H4.CheckedChanged += H4_CheckedChanged;
+            // 
+            // Reach
+            // 
+            Reach.AutoSize = true;
+            Reach.Location = new Point(348, 274);
+            Reach.Name = "Reach";
+            Reach.Size = new Size(58, 19);
+            Reach.TabIndex = 38;
+            Reach.Text = "Reach";
+            Reach.UseVisualStyleBackColor = true;
+            Reach.CheckedChanged += Reach_CheckedChanged;
+            // 
+            // ODST
+            // 
+            ODST.AutoSize = true;
+            ODST.Location = new Point(348, 240);
+            ODST.Name = "ODST";
+            ODST.Size = new Size(55, 19);
+            ODST.TabIndex = 37;
+            ODST.Text = "ODST";
+            ODST.UseVisualStyleBackColor = true;
+            ODST.CheckedChanged += ODST_CheckedChanged;
+            // 
+            // H3
+            // 
+            H3.AutoSize = true;
+            H3.Location = new Point(348, 203);
+            H3.Name = "H3";
+            H3.Size = new Size(41, 19);
+            H3.TabIndex = 36;
+            H3.Text = "H3";
+            H3.UseVisualStyleBackColor = true;
+            H3.CheckedChanged += H3_CheckedChanged;
+            // 
+            // H2
+            // 
+            H2.AutoSize = true;
+            H2.Location = new Point(348, 163);
+            H2.Name = "H2";
+            H2.Size = new Size(41, 19);
+            H2.TabIndex = 35;
+            H2.Text = "H2";
+            H2.UseVisualStyleBackColor = true;
+            H2.CheckedChanged += H2_CheckedChanged;
+            // 
+            // CE
+            // 
+            CE.AutoSize = true;
+            CE.Location = new Point(348, 127);
+            CE.Name = "CE";
+            CE.Size = new Size(40, 19);
+            CE.TabIndex = 34;
+            CE.Text = "CE";
+            CE.UseVisualStyleBackColor = true;
+            CE.CheckedChanged += CE_CheckedChanged;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(334, 82);
+            label6.Name = "label6";
+            label6.Size = new Size(92, 15);
+            label6.TabIndex = 33;
+            label6.Text = "Included Games";
+            // 
             // RandLeg
             // 
             RandLeg.AutoSize = true;
-            RandLeg.Location = new Point(634, 240);
+            RandLeg.Location = new Point(662, 308);
             RandLeg.Name = "RandLeg";
             RandLeg.Size = new Size(81, 19);
             RandLeg.TabIndex = 32;
@@ -1253,80 +1358,27 @@
             // 
             helpProvider1.HelpNamespace = "resources/help.html";
             // 
-            // label6
+            // heroRand
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(334, 82);
-            label6.Name = "label6";
-            label6.Size = new Size(92, 15);
-            label6.TabIndex = 33;
-            label6.Text = "Included Games";
+            heroRand.AutoSize = true;
+            heroRand.Location = new Point(556, 308);
+            heroRand.Name = "heroRand";
+            heroRand.Size = new Size(61, 19);
+            heroRand.TabIndex = 40;
+            heroRand.Text = "Heroic";
+            heroRand.UseVisualStyleBackColor = true;
+            heroRand.CheckedChanged += Heroic_CheckedChanged;
             // 
-            // CE
+            // normRand
             // 
-            CE.AutoSize = true;
-            CE.Location = new Point(348, 127);
-            CE.Name = "CE";
-            CE.Size = new Size(40, 19);
-            CE.TabIndex = 34;
-            CE.Text = "CE";
-            CE.UseVisualStyleBackColor = true;
-            CE.CheckedChanged += CE_CheckedChanged;
-            // 
-            // H2
-            // 
-            H2.AutoSize = true;
-            H2.Location = new Point(348, 163);
-            H2.Name = "H2";
-            H2.Size = new Size(41, 19);
-            H2.TabIndex = 35;
-            H2.Text = "H2";
-            H2.UseVisualStyleBackColor = true;
-            H2.CheckedChanged += H2_CheckedChanged;
-            // 
-            // H3
-            // 
-            H3.AutoSize = true;
-            H3.Location = new Point(348, 203);
-            H3.Name = "H3";
-            H3.Size = new Size(41, 19);
-            H3.TabIndex = 36;
-            H3.Text = "H3";
-            H3.UseVisualStyleBackColor = true;
-            H3.CheckedChanged += H3_CheckedChanged;
-            // 
-            // ODST
-            // 
-            ODST.AutoSize = true;
-            ODST.Location = new Point(348, 240);
-            ODST.Name = "ODST";
-            ODST.Size = new Size(55, 19);
-            ODST.TabIndex = 37;
-            ODST.Text = "ODST";
-            ODST.UseVisualStyleBackColor = true;
-            ODST.CheckedChanged += ODST_CheckedChanged;
-            // 
-            // Reach
-            // 
-            Reach.AutoSize = true;
-            Reach.Location = new Point(348, 274);
-            Reach.Name = "Reach";
-            Reach.Size = new Size(58, 19);
-            Reach.TabIndex = 38;
-            Reach.Text = "Reach";
-            Reach.UseVisualStyleBackColor = true;
-            Reach.CheckedChanged += Reach_CheckedChanged;
-            // 
-            // H4
-            // 
-            H4.AutoSize = true;
-            H4.Location = new Point(348, 308);
-            H4.Name = "H4";
-            H4.Size = new Size(41, 19);
-            H4.TabIndex = 39;
-            H4.Text = "H4";
-            H4.UseVisualStyleBackColor = true;
-            H4.CheckedChanged += H4_CheckedChanged;
+            normRand.AutoSize = true;
+            normRand.Location = new Point(648, 240);
+            normRand.Name = "normRand";
+            normRand.Size = new Size(66, 19);
+            normRand.TabIndex = 41;
+            normRand.Text = "Normal";
+            normRand.UseVisualStyleBackColor = true;
+            normRand.CheckedChanged += Normal_CheckedChanged;
             // 
             // Form1
             // 
@@ -1465,5 +1517,9 @@
         private CheckBox Reach;
         private CheckBox ODST;
         private CheckBox H3;
+        private CheckBox Normal;
+        private CheckBox Heroic;
+        private CheckBox heroRand;
+        private CheckBox normRand;
     }
 }

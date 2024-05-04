@@ -142,7 +142,7 @@ namespace randomize
             bool finding = true;
             int Seed = int.Parse(seed.Text);
             Random num = new Random(Seed);
-            int numIndex = num.Next(0, Names.Length - 1);
+            int numIndex = num.Next(0, Names.Length);
 
             for (int i = 0; i < int.Parse(numLevels.Text); i++)
             {
@@ -150,7 +150,7 @@ namespace randomize
 
                 while (finding)
                 {
-                    numIndex = num.Next(0, Names.Length - 1);
+                    numIndex = num.Next(0, Names.Length);
 
                     if (!curMissions.Contains(Names[numIndex]))
                     {
@@ -165,42 +165,56 @@ namespace randomize
             }
         }
 
-        public void difficulty(bool semiRand, string difficulty, TextBox Seed)
+        public void RandDiff(string difficulty, TextBox Seed)
         {
-            if (semiRand)
-            {
                 Random diff = new Random(int.Parse(Seed.Text));
-                int diffIndex = diff.Next(0, 2);
+                int diffIndex = diff.Next(0, 4);
 
                 if (diffIndex == 0)
                 {
                     difficulty = "_campaign_difficulty_level_impossible";
                 }
-                else
+                else if (diffIndex == 1)
                 {
                     difficulty = "_campaign_difficulty_level_easy";
                 }
-            }
+                else if (diffIndex == 2)
+                {
+                    difficulty = "_campaign_difficulty_level_normal";
+                }
+                else if (diffIndex == 3)
+                {
+                    difficulty = "_campaign_difficulty_level_heroic";
+                }
         }
 
         public void create(string[] curMissions, string difficulty, bool fullRand, int[] curInsert, string output, TextBox Seed, string path)
         {
             Random diff = new Random(int.Parse(Seed.Text));
-            int diffIndex = diff.Next(0, 2);
+            int diffIndex = diff.Next(0, 4);
 
             for (int i = 0; i < curMissions.Length; i++)
             {
                 //this one uses the same variable as the semirand but changes the value to be random for every mission
                 if (fullRand)
                 {
-                    diffIndex = diff.Next(0, 2);
+                    diffIndex = diff.Next(0, 4);
+
                     if (diffIndex == 0)
                     {
                         difficulty = "_campaign_difficulty_level_impossible";
                     }
-                    else
+                    else if (diffIndex == 1)
                     {
                         difficulty = "_campaign_difficulty_level_easy";
+                    }
+                    else if (diffIndex == 2)
+                    {
+                        difficulty = "_campaign_difficulty_level_normal";
+                    }
+                    else if (diffIndex == 3)
+                    {
+                        difficulty = "_campaign_difficulty_level_heroic";
                     }
                 }
 
