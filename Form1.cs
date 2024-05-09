@@ -27,20 +27,7 @@ namespace HaloRuns
         string difficulty = "_campaign_difficulty_level_easy";
 
         //the basic text at the start of a playlist file
-        string output =
-            $@"<?xml version=""1.0"" encoding=""utf-8""?>
-            <!--Please increment version number inside the MissionPlaylists tag if the list is updated.  The game uses version number to ensure coop players have same data and also save games will be based on this (The version inside XML tag is not used.)-->
-            <MissionPlaylists version=""4"">
-	            <Halo1 />
-	            <Halo2 />
-	            <Halo3 />
-	            <Halo3ODST />
-	            <HaloReach />
-	            <Halo4 />
-	            <CrossTitle>
-		            <Playlist id=""hydraulic"" name=""Randomizer Playlist"" desc=""H4sIAAAAAAAAAzNkqGHIYKhkSGEoYkhkKGXIYchkSAaKGQCxIZSGsEGkH5ilx2DEYApmYUIDukIAM+Jwa74AAAA="" image=""CT_Setlist_Preview_01"" highestDiffID=""_campaign_difficulty_level_legendary"" hasRallyPoints=""false"">
-			            <MapList>
-                            ";
+        string output;
 
         //a bool array to keep track of which missions are selected
         bool[] Missions = new bool[65];
@@ -60,6 +47,10 @@ namespace HaloRuns
         //bools for which type of randomization is applied to the difficulty
         bool fullRand;
         bool semiRand;
+
+        bool allowDups;
+
+        bool shuffle;
 
         //this var is used for a while loop later
         bool finding = true;
@@ -154,8 +145,17 @@ namespace HaloRuns
         private void Make_Click(object sender, EventArgs e)
         {
             Select selectCode = new Select();
-            selectCode.reset(ref Names, ref insert);
-            selectCode.create(Missions, insert, Names, difficulty, output, path);
+            selectCode.reset(ref Names, ref insert, ref output);
+            selectCode.create(Missions, insert, Names, difficulty, ref output, path, shuffle);
+        }
+
+        private void Randomize_Click(object sender, EventArgs e)
+        {
+            Randomize randCode = new Randomize();
+            randCode.reset(ref Names, activeGames, ref insert, ref curMissions, ref curInsert, ref output);
+            randCode.choose(ref Names, ref curMissions, insert, ref curInsert, seed, numLevels, allowDups);
+            if (semiRand) { randCode.RandDiff(difficulty, seed); }
+            randCode.create(curMissions, difficulty, fullRand, curInsert, output, seed, path);
         }
 
         private void restore_Click(object sender, EventArgs e)
@@ -224,18 +224,6 @@ namespace HaloRuns
             semiRand = false;
         }
 
-        private void Randomize_Click(object sender, EventArgs e)
-        {
-            Randomize randCode = new Randomize();
-            randCode.reset(ref Names, activeGames, ref insert, ref curMissions, ref curInsert);
-            randCode.choose(ref Names, ref curMissions, insert, ref curInsert, seed, numLevels);
-            if (semiRand)
-            {
-                randCode.RandDiff(difficulty, seed);
-            }
-            randCode.create(curMissions, difficulty, fullRand, curInsert, output, seed, path);
-        }
-
         private void ChangePath_Click(object sender, EventArgs e)
         {
             //opens the menu to select a folder
@@ -275,5 +263,8 @@ namespace HaloRuns
             fullRand = false;
             semiRand = true;
         }
+
+        private void AllowDups_CheckedChanged(object sender, EventArgs e) { allowDups = true; }
+        private void Shuffle_CheckedChanged(object sender, EventArgs e){ shuffle = true; }
     }
 }

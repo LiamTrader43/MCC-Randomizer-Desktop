@@ -10,7 +10,7 @@ namespace randomize
 {
     internal class Randomize
     {
-        public void reset(ref string[] Names, bool[] activeGames, ref int[] insert, ref string[] curMissions, ref int[] curInsert)
+        public void reset(ref string[] Names, bool[] activeGames, ref int[] insert, ref string[] curMissions, ref int[] curInsert, ref string output)
         {
             addNames(ref Names, activeGames, ref insert);
 
@@ -19,6 +19,21 @@ namespace randomize
 
             Array.Clear(curInsert, 0, curInsert.Length);
             Array.Resize(ref curInsert, 0);
+
+            output =
+            $@"<?xml version=""1.0"" encoding=""utf-8""?>
+            <!--Please increment version number inside the MissionPlaylists tag if the list is updated.  The game uses version number to ensure coop players have same data and also save games will be based on this (The version inside XML tag is not used.)-->
+            <MissionPlaylists version=""4"">
+	            <Halo1 />
+	            <Halo2 />
+	            <Halo3 />
+	            <Halo3ODST />
+	            <HaloReach />
+	            <Halo4 />
+	            <CrossTitle>
+		            <Playlist id=""hydraulic"" name=""Randomizer Playlist"" desc=""H4sIAAAAAAAAAzNkqGHIYKhkSGEoYkhkKGXIYchkSAaKGQCxIZSGsEGkH5ilx2DEYApmYUIDukIAM+Jwa74AAAA="" image=""CT_Setlist_Preview_01"" highestDiffID=""_campaign_difficulty_level_legendary"" hasRallyPoints=""false"">
+			            <MapList>
+                            ";
 
         }
 
@@ -134,7 +149,7 @@ namespace randomize
             }
         }
 
-        public void choose(ref string[] Names, ref string[] curMissions, int[] insert, ref int[] curInsert, TextBox seed, TextBox numLevels)
+        public void choose(ref string[] Names, ref string[] curMissions, int[] insert, ref int[] curInsert, TextBox seed, TextBox numLevels, bool allowDups)
         {
             Array.Resize(ref curMissions, int.Parse(numLevels.Text));
             Array.Resize(ref curInsert, int.Parse(numLevels.Text));
@@ -144,22 +159,37 @@ namespace randomize
             Random num = new Random(Seed);
             int numIndex = num.Next(0, Names.Length);
 
-            for (int i = 0; i < int.Parse(numLevels.Text); i++)
+            if (!allowDups)
             {
-                finding = true;
+                for (int i = 0; i < int.Parse(numLevels.Text); i++)
+                {
+                    finding = true;
 
-                while (finding)
+                    while (finding)
+                    {
+                        numIndex = num.Next(0, Names.Length);
+
+                        if (!curMissions.Contains(Names[numIndex]))
+                        {
+                            finding = false;
+                            curMissions[i] = Names[numIndex];
+                            if (insert[numIndex] != 0)
+                            {
+                                curInsert[i] = insert[numIndex];
+                            }
+                        }
+                    }
+                }
+            }
+            else
+            {
+                for (int i = 0; i < int.Parse(numLevels.Text); i++)
                 {
                     numIndex = num.Next(0, Names.Length);
-
-                    if (!curMissions.Contains(Names[numIndex]))
+                    curMissions[i] = Names[numIndex];
+                    if (insert[numIndex] != 0)
                     {
-                        finding = false;
-                        curMissions[i] = Names[numIndex];
-                        if (insert[numIndex] != 0)
-                        {
-                            curInsert[i] = insert[numIndex];
-                        }
+                        curInsert[i] = insert[numIndex];
                     }
                 }
             }

@@ -111,6 +111,9 @@
             Legendary = new CheckBox();
             Easy = new CheckBox();
             RandomPage = new TabPage();
+            AllowDups = new CheckBox();
+            normRand = new CheckBox();
+            heroRand = new CheckBox();
             H4 = new CheckBox();
             Reach = new CheckBox();
             ODST = new CheckBox();
@@ -134,8 +137,9 @@
             PathLabel = new Label();
             folderBrowserDialog1 = new FolderBrowserDialog();
             helpProvider1 = new HelpProvider();
-            heroRand = new CheckBox();
-            normRand = new CheckBox();
+            label7 = new Label();
+            Shuffle = new CheckBox();
+            label8 = new Label();
             tabControl1.SuspendLayout();
             Choose.SuspendLayout();
             tabControl2.SuspendLayout();
@@ -162,6 +166,9 @@
             // 
             // Choose
             // 
+            Choose.Controls.Add(label8);
+            Choose.Controls.Add(Shuffle);
+            Choose.Controls.Add(label7);
             Choose.Controls.Add(Normal);
             Choose.Controls.Add(Heroic);
             Choose.Controls.Add(tabControl2);
@@ -180,7 +187,7 @@
             // Normal
             // 
             Normal.AutoSize = true;
-            Normal.Location = new Point(614, 119);
+            Normal.Location = new Point(606, 89);
             Normal.Name = "Normal";
             Normal.Size = new Size(66, 19);
             Normal.TabIndex = 36;
@@ -191,7 +198,7 @@
             // Heroic
             // 
             Heroic.AutoSize = true;
-            Heroic.Location = new Point(483, 169);
+            Heroic.Location = new Point(475, 139);
             Heroic.Name = "Heroic";
             Heroic.Size = new Size(61, 19);
             Heroic.TabIndex = 35;
@@ -207,7 +214,7 @@
             tabControl2.Controls.Add(tabPage4);
             tabControl2.Controls.Add(tabPage5);
             tabControl2.Controls.Add(tabPage6);
-            tabControl2.Location = new Point(18, 46);
+            tabControl2.Location = new Point(17, 16);
             tabControl2.Name = "tabControl2";
             tabControl2.SelectedIndex = 0;
             tabControl2.Size = new Size(355, 355);
@@ -1073,7 +1080,7 @@
             // 
             // restore
             // 
-            restore.Location = new Point(622, 266);
+            restore.Location = new Point(430, 391);
             restore.Name = "restore";
             restore.Size = new Size(75, 23);
             restore.TabIndex = 28;
@@ -1083,7 +1090,7 @@
             // 
             // Make
             // 
-            Make.Location = new Point(472, 266);
+            Make.Location = new Point(322, 391);
             Make.Name = "Make";
             Make.Size = new Size(75, 23);
             Make.TabIndex = 27;
@@ -1094,7 +1101,7 @@
             // Legendary
             // 
             Legendary.AutoSize = true;
-            Legendary.Location = new Point(616, 169);
+            Legendary.Location = new Point(608, 139);
             Legendary.Name = "Legendary";
             Legendary.Size = new Size(81, 19);
             Legendary.TabIndex = 30;
@@ -1105,7 +1112,7 @@
             // Easy
             // 
             Easy.AutoSize = true;
-            Easy.Location = new Point(483, 119);
+            Easy.Location = new Point(475, 89);
             Easy.Name = "Easy";
             Easy.Size = new Size(49, 19);
             Easy.TabIndex = 29;
@@ -1115,6 +1122,7 @@
             // 
             // RandomPage
             // 
+            RandomPage.Controls.Add(AllowDups);
             RandomPage.Controls.Add(normRand);
             RandomPage.Controls.Add(heroRand);
             RandomPage.Controls.Add(H4);
@@ -1142,10 +1150,43 @@
             RandomPage.Text = "Random";
             RandomPage.UseVisualStyleBackColor = true;
             // 
+            // AllowDups
+            // 
+            AllowDups.AutoSize = true;
+            AllowDups.Location = new Point(363, 127);
+            AllowDups.Name = "AllowDups";
+            AllowDups.Size = new Size(158, 19);
+            AllowDups.TabIndex = 42;
+            AllowDups.Text = "Allow Duplicate Missions";
+            AllowDups.UseVisualStyleBackColor = true;
+            AllowDups.CheckedChanged += AllowDups_CheckedChanged;
+            // 
+            // normRand
+            // 
+            normRand.AutoSize = true;
+            normRand.Location = new Point(648, 240);
+            normRand.Name = "normRand";
+            normRand.Size = new Size(66, 19);
+            normRand.TabIndex = 41;
+            normRand.Text = "Normal";
+            normRand.UseVisualStyleBackColor = true;
+            normRand.CheckedChanged += Normal_CheckedChanged;
+            // 
+            // heroRand
+            // 
+            heroRand.AutoSize = true;
+            heroRand.Location = new Point(556, 308);
+            heroRand.Name = "heroRand";
+            heroRand.Size = new Size(61, 19);
+            heroRand.TabIndex = 40;
+            heroRand.Text = "Heroic";
+            heroRand.UseVisualStyleBackColor = true;
+            heroRand.CheckedChanged += Heroic_CheckedChanged;
+            // 
             // H4
             // 
             H4.AutoSize = true;
-            H4.Location = new Point(348, 308);
+            H4.Location = new Point(225, 308);
             H4.Name = "H4";
             H4.Size = new Size(41, 19);
             H4.TabIndex = 39;
@@ -1156,7 +1197,7 @@
             // Reach
             // 
             Reach.AutoSize = true;
-            Reach.Location = new Point(348, 274);
+            Reach.Location = new Point(225, 274);
             Reach.Name = "Reach";
             Reach.Size = new Size(58, 19);
             Reach.TabIndex = 38;
@@ -1167,7 +1208,7 @@
             // ODST
             // 
             ODST.AutoSize = true;
-            ODST.Location = new Point(348, 240);
+            ODST.Location = new Point(225, 240);
             ODST.Name = "ODST";
             ODST.Size = new Size(55, 19);
             ODST.TabIndex = 37;
@@ -1178,7 +1219,7 @@
             // H3
             // 
             H3.AutoSize = true;
-            H3.Location = new Point(348, 203);
+            H3.Location = new Point(225, 203);
             H3.Name = "H3";
             H3.Size = new Size(41, 19);
             H3.TabIndex = 36;
@@ -1189,7 +1230,7 @@
             // H2
             // 
             H2.AutoSize = true;
-            H2.Location = new Point(348, 163);
+            H2.Location = new Point(225, 163);
             H2.Name = "H2";
             H2.Size = new Size(41, 19);
             H2.TabIndex = 35;
@@ -1200,7 +1241,7 @@
             // CE
             // 
             CE.AutoSize = true;
-            CE.Location = new Point(348, 127);
+            CE.Location = new Point(225, 127);
             CE.Name = "CE";
             CE.Size = new Size(40, 19);
             CE.TabIndex = 34;
@@ -1211,7 +1252,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(334, 82);
+            label6.Location = new Point(211, 82);
             label6.Name = "label6";
             label6.Size = new Size(92, 15);
             label6.TabIndex = 33;
@@ -1272,7 +1313,7 @@
             // 
             // Randomize
             // 
-            Randomize.Location = new Point(334, 354);
+            Randomize.Location = new Point(363, 354);
             Randomize.Name = "Randomize";
             Randomize.Size = new Size(75, 23);
             Randomize.TabIndex = 4;
@@ -1283,7 +1324,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(98, 203);
+            label2.Location = new Point(56, 203);
             label2.Name = "label2";
             label2.Size = new Size(100, 15);
             label2.TabIndex = 3;
@@ -1292,7 +1333,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(127, 82);
+            label1.Location = new Point(85, 82);
             label1.Name = "label1";
             label1.Size = new Size(32, 15);
             label1.TabIndex = 2;
@@ -1300,14 +1341,14 @@
             // 
             // numLevels
             // 
-            numLevels.Location = new Point(98, 240);
+            numLevels.Location = new Point(56, 240);
             numLevels.Name = "numLevels";
             numLevels.Size = new Size(100, 23);
             numLevels.TabIndex = 1;
             // 
             // seed
             // 
-            seed.Location = new Point(98, 113);
+            seed.Location = new Point(56, 113);
             seed.MaxLength = 9;
             seed.Name = "seed";
             seed.Size = new Size(100, 23);
@@ -1358,27 +1399,34 @@
             // 
             helpProvider1.HelpNamespace = "resources/help.html";
             // 
-            // heroRand
+            // label7
             // 
-            heroRand.AutoSize = true;
-            heroRand.Location = new Point(556, 308);
-            heroRand.Name = "heroRand";
-            heroRand.Size = new Size(61, 19);
-            heroRand.TabIndex = 40;
-            heroRand.Text = "Heroic";
-            heroRand.UseVisualStyleBackColor = true;
-            heroRand.CheckedChanged += Heroic_CheckedChanged;
+            label7.AutoSize = true;
+            label7.Location = new Point(537, 57);
+            label7.Name = "label7";
+            label7.Size = new Size(55, 15);
+            label7.TabIndex = 37;
+            label7.Text = "Difficulty";
             // 
-            // normRand
+            // Shuffle
             // 
-            normRand.AutoSize = true;
-            normRand.Location = new Point(648, 240);
-            normRand.Name = "normRand";
-            normRand.Size = new Size(66, 19);
-            normRand.TabIndex = 41;
-            normRand.Text = "Normal";
-            normRand.UseVisualStyleBackColor = true;
-            normRand.CheckedChanged += Normal_CheckedChanged;
+            Shuffle.AutoSize = true;
+            Shuffle.Location = new Point(475, 249);
+            Shuffle.Name = "Shuffle";
+            Shuffle.Size = new Size(112, 19);
+            Shuffle.TabIndex = 38;
+            Shuffle.Text = "Shuffle Missions";
+            Shuffle.UseVisualStyleBackColor = true;
+            Shuffle.CheckedChanged += Shuffle_CheckedChanged;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(543, 222);
+            label8.Name = "label8";
+            label8.Size = new Size(49, 15);
+            label8.TabIndex = 39;
+            label8.Text = "Options";
             // 
             // Form1
             // 
@@ -1521,5 +1569,9 @@
         private CheckBox Heroic;
         private CheckBox heroRand;
         private CheckBox normRand;
+        private CheckBox AllowDups;
+        private Label label8;
+        private CheckBox Shuffle;
+        private Label label7;
     }
 }

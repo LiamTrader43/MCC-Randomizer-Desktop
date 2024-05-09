@@ -4,16 +4,32 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using HaloRuns;
 
 namespace select
 {
-    public partial class Select
+    internal class Select
     {
-        public void reset(ref string[] Names, ref int[] insert)
+        public void reset(ref string[] Names, ref int[] insert, ref string output)
         {
             namesSetup(ref Names);
             insertSetup(ref insert);
+
+            output =
+            $@"<?xml version=""1.0"" encoding=""utf-8""?>
+            <!--Please increment version number inside the MissionPlaylists tag if the list is updated.  The game uses version number to ensure coop players have same data and also save games will be based on this (The version inside XML tag is not used.)-->
+            <MissionPlaylists version=""4"">
+	            <Halo1 />
+	            <Halo2 />
+	            <Halo3 />
+	            <Halo3ODST />
+	            <HaloReach />
+	            <Halo4 />
+	            <CrossTitle>
+		            <Playlist id=""hydraulic"" name=""Randomizer Playlist"" desc=""H4sIAAAAAAAAAzNkqGHIYKhkSGEoYkhkKGXIYchkSAaKGQCxIZSGsEGkH5ilx2DEYApmYUIDukIAM+Jwa74AAAA="" image=""CT_Setlist_Preview_01"" highestDiffID=""_campaign_difficulty_level_legendary"" hasRallyPoints=""false"">
+			            <MapList>
+                            ";
         }
 
         private void add(string filename, ref string[] Names, int start, int end)
@@ -100,21 +116,86 @@ namespace select
             insert[45] = 6;
         }
 
-        public void create(bool[] Missions, int[] insert, string[] Names, string difficulty, string output, string path)
+        public void shuffleMissions(bool[] Missions, int[] insert, string[] Names, string difficulty, ref string output)
         {
+            bool finding = false;
+
+            int number = 0;
             for (int i = 0; i < 65; i++)
             {
+                if (Missions[i]) { number++; }
+            }
+            string[] shuffledMissions = new string[number];
+
+            for (int i = 0; i < 65; i++)
+            {
+                Random random = new Random();
+
                 if (Missions[i] == true && insert[i] != 0)
                 {
-                    output = output + ("<" + Names[i] + " diffID='" + difficulty + "' insertionpoint='" + insert[i] + "'  />");
+                    finding = true;
+
+                    while (finding)
+                    {
+                        finding = true;
+                        int randIndex = random.Next(0, number);
+
+                        if (shuffledMissions[randIndex] == null)
+                        {
+                            finding = false;
+                            shuffledMissions[randIndex] = ("<" + Names[i] + " diffID='" + difficulty + "' insertionpoint='" + insert[i] + "'  />");
+                        }
+                    }
                 }
                 else
                 {
                     if (Missions[i] == true)
                     {
-                        output = output + ("<" + Names[i] + " diffID='" + difficulty + "'  />");
+                        finding = true;
+
+                        while (finding)
+                        {
+                            finding = true;
+                            int randIndex = random.Next(0, number);
+
+                            if (shuffledMissions[randIndex] == null)
+                            {
+                                finding = false;
+                                shuffledMissions[randIndex] = ("<" + Names[i] + " diffID='" + difficulty + "'  />");
+                            }
+                        }
                     }
                 }
+            }
+
+            for (int i = 0; i < number; i++)
+            {
+                output = output + shuffledMissions[i];
+            }
+        }
+
+        public void create(bool[] Missions, int[] insert, string[] Names, string difficulty, ref string output, string path, bool shuffle)
+        {
+            if (!shuffle)
+            {
+                for (int i = 0; i < 65; i++)
+                {
+                    if (Missions[i] == true && insert[i] != 0)
+                    {
+                        output = output + ("<" + Names[i] + " diffID='" + difficulty + "' insertionpoint='" + insert[i] + "'  />");
+                    }
+                    else
+                    {
+                        if (Missions[i] == true)
+                        {
+                            output = output + ("<" + Names[i] + " diffID='" + difficulty + "'  />");
+                        }
+                    }
+                }
+            }
+            else
+            {
+                shuffleMissions(Missions, insert, Names, difficulty, ref output);
             }
 
             output = output +
@@ -130,6 +211,5 @@ namespace select
 
             File.WriteAllText(path, output);
         }
-
     }
 }
